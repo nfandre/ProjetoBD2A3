@@ -21,3 +21,13 @@ C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaDados\bin\Debug\My
 C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.csprojResolveAssemblyReference.cache
 C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.dll
 C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.pdb
+C:\Users\aluno\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaDados\bin\Debug\CamadaDados.dll.config
+C:\Users\aluno\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaDados\bin\Debug\CamadaDados.dll
+C:\Users\aluno\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaDados\bin\Debug\CamadaDados.pdb
+C:\Users\aluno\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaDados\bin\Debug\MySql.Data.dll
+C:\Users\aluno\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaDados\bin\Debug\MySql.Data.xml
+C:\Users\aluno\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.csprojResolveAssemblyReference.cache
+C:\Users\aluno\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.csproj.CopyComplete
+C:\Users\aluno\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.dll
+C:\Users\aluno\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.pdb

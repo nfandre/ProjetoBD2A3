@@ -17,5 +17,6 @@ namespace ObjetoTransferencia
         public string telefone { get; set; }
         public string celular { get; set; }
         public DateTime dataNascimento { get; set; }
+
     }
 }

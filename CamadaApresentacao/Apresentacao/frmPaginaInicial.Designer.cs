@@ -30,39 +30,134 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPaginaInicial));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAluno = new System.Windows.Forms.Button();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.btnTimes = new System.Windows.Forms.Button();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.btnJogos = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.btnCompeticoes = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnFechar = new System.Windows.Forms.Button();
+            this.flpAlunoLayout = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnCadastraAluno = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.flpAlunoLayout.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.flowLayoutPanel1.Controls.Add(this.panel2);
-            this.flowLayoutPanel1.Controls.Add(this.panel1);
-            this.flowLayoutPanel1.Controls.Add(this.panel5);
-            this.flowLayoutPanel1.Controls.Add(this.panel4);
+            this.flowLayoutPanel1.Controls.Add(this.panel6);
+            this.flowLayoutPanel1.Controls.Add(this.panel7);
+            this.flowLayoutPanel1.Controls.Add(this.panel8);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 62);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(253, 446);
             this.flowLayoutPanel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.btnAluno);
+            this.panel2.Location = new System.Drawing.Point(3, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(248, 64);
+            this.panel2.TabIndex = 4;
+            // 
+            // btnAluno
+            // 
+            this.btnAluno.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnAluno.FlatAppearance.BorderSize = 0;
+            this.btnAluno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAluno.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
+            this.btnAluno.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
+            this.btnAluno.Location = new System.Drawing.Point(-1, -1);
+            this.btnAluno.Name = "btnAluno";
+            this.btnAluno.Size = new System.Drawing.Size(250, 64);
+            this.btnAluno.TabIndex = 4;
+            this.btnAluno.Text = "Aluno";
+            this.btnAluno.UseVisualStyleBackColor = false;
+            // 
+            // panel6
+            // 
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.btnTimes);
+            this.panel6.Location = new System.Drawing.Point(3, 73);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(248, 64);
+            this.panel6.TabIndex = 5;
+            // 
+            // btnTimes
+            // 
+            this.btnTimes.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnTimes.FlatAppearance.BorderSize = 0;
+            this.btnTimes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTimes.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
+            this.btnTimes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
+            this.btnTimes.Location = new System.Drawing.Point(-1, -1);
+            this.btnTimes.Name = "btnTimes";
+            this.btnTimes.Size = new System.Drawing.Size(250, 64);
+            this.btnTimes.TabIndex = 4;
+            this.btnTimes.Text = "Times";
+            this.btnTimes.UseVisualStyleBackColor = false;
+            // 
+            // panel7
+            // 
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.btnJogos);
+            this.panel7.Location = new System.Drawing.Point(3, 143);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(248, 64);
+            this.panel7.TabIndex = 6;
+            // 
+            // btnJogos
+            // 
+            this.btnJogos.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnJogos.FlatAppearance.BorderSize = 0;
+            this.btnJogos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnJogos.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
+            this.btnJogos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
+            this.btnJogos.Location = new System.Drawing.Point(-1, -1);
+            this.btnJogos.Name = "btnJogos";
+            this.btnJogos.Size = new System.Drawing.Size(250, 64);
+            this.btnJogos.TabIndex = 4;
+            this.btnJogos.Text = "Jogos";
+            this.btnJogos.UseVisualStyleBackColor = false;
+            // 
+            // panel8
+            // 
+            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel8.Controls.Add(this.btnCompeticoes);
+            this.panel8.Location = new System.Drawing.Point(3, 213);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(248, 64);
+            this.panel8.TabIndex = 7;
+            // 
+            // btnCompeticoes
+            // 
+            this.btnCompeticoes.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnCompeticoes.FlatAppearance.BorderSize = 0;
+            this.btnCompeticoes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCompeticoes.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
+            this.btnCompeticoes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
+            this.btnCompeticoes.Location = new System.Drawing.Point(-1, -1);
+            this.btnCompeticoes.Name = "btnCompeticoes";
+            this.btnCompeticoes.Size = new System.Drawing.Size(250, 64);
+            this.btnCompeticoes.TabIndex = 4;
+            this.btnCompeticoes.Text = "Competições";
+            this.btnCompeticoes.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -75,27 +170,6 @@
             this.panel3.TabIndex = 2;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
-            // panel1
-            // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(3, 73);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(248, 64);
-            this.panel1.TabIndex = 3;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.label1.Location = new System.Drawing.Point(37, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 37);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ProjetoBD";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -106,99 +180,62 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // label2
+            // label1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.label2.Location = new System.Drawing.Point(33, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(184, 37);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Competições";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
+            this.label1.Location = new System.Drawing.Point(37, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(149, 37);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "ProjetoBD";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // panel2
+            // btnFechar
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(3, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(248, 64);
-            this.panel2.TabIndex = 4;
+            this.btnFechar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.btnFechar.FlatAppearance.BorderSize = 0;
+            this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFechar.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
+            this.btnFechar.Location = new System.Drawing.Point(822, 0);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(47, 56);
+            this.btnFechar.TabIndex = 3;
+            this.btnFechar.Text = "X";
+            this.btnFechar.UseVisualStyleBackColor = false;
+            this.btnFechar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label3
+            // flpAlunoLayout
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.label3.Location = new System.Drawing.Point(78, 15);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 37);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Aluno";
+            this.flpAlunoLayout.Controls.Add(this.btnCadastraAluno);
+            this.flpAlunoLayout.Location = new System.Drawing.Point(316, 135);
+            this.flpAlunoLayout.Name = "flpAlunoLayout";
+            this.flpAlunoLayout.Size = new System.Drawing.Size(434, 309);
+            this.flpAlunoLayout.TabIndex = 4;
             // 
-            // panel4
+            // btnCadastraAluno
             // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.label4);
-            this.panel4.Location = new System.Drawing.Point(3, 213);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(248, 64);
-            this.panel4.TabIndex = 4;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.label4.Location = new System.Drawing.Point(78, 15);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 37);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Times";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // panel5
-            // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.label5);
-            this.panel5.Location = new System.Drawing.Point(3, 143);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(248, 64);
-            this.panel5.TabIndex = 5;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.label5.Location = new System.Drawing.Point(78, 15);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 37);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Jogos";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
-            this.button1.Location = new System.Drawing.Point(822, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(47, 56);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCadastraAluno.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnCadastraAluno.FlatAppearance.BorderSize = 0;
+            this.btnCadastraAluno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastraAluno.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
+            this.btnCadastraAluno.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
+            this.btnCadastraAluno.Location = new System.Drawing.Point(3, 3);
+            this.btnCadastraAluno.Name = "btnCadastraAluno";
+            this.btnCadastraAluno.Size = new System.Drawing.Size(185, 131);
+            this.btnCadastraAluno.TabIndex = 5;
+            this.btnCadastraAluno.Text = "Cadastrar";
+            this.btnCadastraAluno.UseVisualStyleBackColor = false;
+            this.btnCadastraAluno.Click += new System.EventHandler(this.btnCadastraAluno_Click);
             // 
             // frmPaginaInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(872, 508);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.flpAlunoLayout);
+            this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -207,17 +244,14 @@
             this.Text = "frmPaginaInicial";
             this.Load += new System.EventHandler(this.frmPaginaInicial_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
+            this.flpAlunoLayout.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -226,16 +260,18 @@
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel1;
         public System.Windows.Forms.Label label1;
-        public System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
-        public System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel4;
-        public System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel panel5;
-        public System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnFechar;
+        private System.Windows.Forms.Button btnAluno;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Button btnTimes;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Button btnJogos;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Button btnCompeticoes;
+        private System.Windows.Forms.FlowLayoutPanel flpAlunoLayout;
+        private System.Windows.Forms.Button btnCadastraAluno;
     }
 }

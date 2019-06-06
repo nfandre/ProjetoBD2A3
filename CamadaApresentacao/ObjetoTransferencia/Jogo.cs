@@ -10,7 +10,6 @@ namespace ObjetoTransferencia
     {
         public int IdJogo { get; set; }
         public string descricao { get; set; }
-        public DateTime Data { get; set; }
-        public DateTime Horario { get; set; }
+        public DateTime DataHora { get; set; }
     }
 }

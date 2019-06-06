@@ -51,5 +51,11 @@ namespace Apresentacao
         {
             Application.Exit();
         }
+
+        private void btnCadastraAluno_Click(object sender, EventArgs e)
+        {
+            frmCadastrarAluno frmcadastrarAluno = new frmCadastrarAluno();
+            frmcadastrarAluno.Show();
+        }
     }
 }
