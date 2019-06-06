@@ -1,0 +1,92 @@
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\bin\Debug\Apresentacao.exe.config
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\bin\Debug\CamadaNegocios.dll
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\bin\Debug\ObjetoTransferencia.dll
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\bin\Debug\CamadaDados.dll
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\bin\Debug\CamadaNegocios.pdb
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\bin\Debug\CamadaDados.pdb
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmCadastrarGerente.resources
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmInicializarPrograma.resources
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmLoginAcesso.resources
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmPaginaInicial.resources
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmProdutoCadastrar.resources
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmProdutoListar.resources
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmTelaVenda.resources
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.Form1.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\Apresentacao.exe.config
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\CamadaNegocios.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\ObjetoTransferencia.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\CamadaDados.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\CamadaNegocios.pdb
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\CamadaDados.pdb
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmInicializarPrograma.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmLoginAcesso.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmPaginaInicial.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmProdutoCadastrar.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmTelaVenda.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmFormaPagamento.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmRegistrosRelatorios.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmRelatorioDiario.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\RdlCompile.cache
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\RdlCompile.compiled
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmFuncionarioCadastrar.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmAlterarSenha.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmListar.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\MySql.Data.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\MySql.Data.xml
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.csproj.ResolveComReference.cache
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmAjuda.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmEmpresa.resources
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmProdutoMaisVendidos.resources
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\bin\Debug\Apresentacao.exe.config
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.csproj.ResolveComReference.cache
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmInicializarPrograma.resources
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmLoginAcesso.resources
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\bin\Debug\Apresentacao.exe
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\bin\Debug\Apresentacao.pdb
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\bin\Debug\CamadaNegocios.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\bin\Debug\ObjetoTransferencia.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\bin\Debug\CamadaDados.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\bin\Debug\MySql.Data.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\bin\Debug\CamadaNegocios.pdb
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\bin\Debug\CamadaDados.pdb
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\bin\Debug\MySql.Data.xml
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmPaginaInicial.resources

@@ -1,0 +1,33 @@
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.csprojResolveAssemblyReference.cache
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaNegocios.dll
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaNegocios.pdb
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaDados.dll
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\ObjetoTransferencia.dll
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaDados.pdb
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.dll
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.pdb
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaNegocios.dll.CodeAnalysisLog.xml
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaNegocios.dll.lastcodeanalysissucceeded
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaNegocios.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaNegocios.pdb
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaDados.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\ObjetoTransferencia.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaDados.pdb
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.csprojResolveAssemblyReference.cache
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.pdb
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\MySql.Data.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaNegocios\bin\Debug\MySql.Data.xml
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaNegocios.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaNegocios.pdb
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaDados.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaNegocios\bin\Debug\ObjetoTransferencia.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaNegocios\bin\Debug\MySql.Data.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaDados.pdb
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaNegocios\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaNegocios\bin\Debug\MySql.Data.xml
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.csprojResolveAssemblyReference.cache
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.pdb

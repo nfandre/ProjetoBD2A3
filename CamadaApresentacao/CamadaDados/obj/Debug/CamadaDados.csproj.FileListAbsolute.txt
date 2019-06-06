@@ -1,0 +1,23 @@
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaDados\bin\Debug\CamadaDados.dll.config
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaDados\bin\Debug\CamadaDados.dll
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaDados\bin\Debug\CamadaDados.pdb
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.dll
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.pdb
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaDados\bin\Debug\CamadaDados.dll.CodeAnalysisLog.xml
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\CamadaDados\bin\Debug\CamadaDados.dll.lastcodeanalysissucceeded
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaDados\bin\Debug\CamadaDados.dll.config
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaDados\bin\Debug\CamadaDados.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaDados\bin\Debug\CamadaDados.pdb
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.pdb
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.csprojResolveAssemblyReference.cache
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaDados\bin\Debug\MySql.Data.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\CamadaDados\bin\Debug\MySql.Data.xml
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaDados\bin\Debug\CamadaDados.dll.config
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaDados\bin\Debug\CamadaDados.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaDados\bin\Debug\CamadaDados.pdb
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaDados\bin\Debug\MySql.Data.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaDados\bin\Debug\MySql.Data.xml
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.csprojResolveAssemblyReference.cache
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\CamadaDados\obj\Debug\CamadaDados.pdb

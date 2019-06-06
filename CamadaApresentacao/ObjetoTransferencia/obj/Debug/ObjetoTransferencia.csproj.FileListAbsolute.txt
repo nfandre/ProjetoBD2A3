@@ -1,0 +1,17 @@
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.dll
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.dll
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.pdb
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.csprojResolveAssemblyReference.cache
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.dll.CodeAnalysisLog.xml
+C:\Users\André\Documents\Visual Studio 2015\TCC\CamadaApresentacao\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.dll.lastcodeanalysissucceeded
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.dll
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.pdb
+C:\Users\André\Documents\Visual Studio 2015\Projects\TCC\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.csprojResolveAssemblyReference.cache
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.csprojResolveAssemblyReference.cache
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.dll
+C:\Users\André\Desktop\ProjetoBanco\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.pdb
