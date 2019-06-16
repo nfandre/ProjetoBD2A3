@@ -12,9 +12,14 @@ namespace Apresentacao
 {
     public partial class frmPaginaInicial : Form
     {
+        //int mov;
+        //int movX;
+        //int movY;
+        FormularioMover fm = new FormularioMover();
         public frmPaginaInicial()
         {
             InitializeComponent();
+           
         }
 
         private void frmPaginaInicial_Load(object sender, EventArgs e)
@@ -27,10 +32,7 @@ namespace Apresentacao
 
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
 
-        }
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -55,7 +57,36 @@ namespace Apresentacao
         private void btnCadastraAluno_Click(object sender, EventArgs e)
         {
             frmCadastrarAluno frmcadastrarAluno = new frmCadastrarAluno();
-            frmcadastrarAluno.Show();
+            frmcadastrarAluno.ShowDialog();
+        }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+
+
+        private void pMoverTel_MouseDown(object sender, MouseEventArgs e)
+        {
+            // mov = 1;
+            // movX = e.X;
+            // movY = e.Y;
+            fm.MouseDown(e);
+        }
+
+        private void pMoverTel_MouseMove(object sender, MouseEventArgs e)
+        {
+            if(fm.MouseMover(e,this) == true)
+            {
+                this.SetDesktopLocation(MousePosition.X - fm.movX, MousePosition.Y - fm.movY);
+
+            }
+        }
+
+        private void pMoverTel_MouseUp(object sender, MouseEventArgs e)
+        {
+            fm.MoveUp();
         }
     }
 }

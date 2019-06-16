@@ -21,3 +21,8 @@ C:\Users\aluno\Desktop\ProjetoBD2A3\CamadaApresentacao\ObjetoTransferencia\obj\D
 C:\Users\aluno\Desktop\ProjetoBD2A3\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.csproj.CoreCompileInputs.cache
 C:\Users\aluno\Desktop\ProjetoBD2A3\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.dll
 C:\Users\aluno\Desktop\ProjetoBD2A3\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.pdb
+C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.dll
+C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.csprojResolveAssemblyReference.cache
+C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.dll
+C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.pdb
