@@ -51,10 +51,29 @@ namespace Apresentacao
             this.Hide();
         }
 
+        private void LblCategoria_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LblDtaNascimento_Click(object sender, EventArgs e)
+        {
+
+        }
 
 
+        private void BtnDadosResponsaveis_Click(object sender, EventArgs e)
+        {
+            btnDadosResponsaveis.BackColor = Color.DarkGray;
+            btnDadosPessoais.BackColor = Color.FromArgb(229, 87, 54);
+            pDadosPessoais.Visible = false;
+        }
 
-
- 
+        private void BtnDadosPessoais_Click(object sender, EventArgs e)
+        {
+            btnDadosPessoais.BackColor = Color.DarkGray;
+            btnDadosResponsaveis.BackColor = Color.FromArgb(229, 87, 54);
+            pDadosPessoais.Visible = true;
+        }
     }
 }

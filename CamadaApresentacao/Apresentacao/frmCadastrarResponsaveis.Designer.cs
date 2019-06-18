@@ -30,24 +30,14 @@
         {
             this.label18 = new System.Windows.Forms.Label();
             this.flowLayoutPanel12 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel14 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label20 = new System.Windows.Forms.Label();
+            this.txtResponsavel = new System.Windows.Forms.Label();
             this.textBox14 = new System.Windows.Forms.TextBox();
-            this.flowLayoutPanel13 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label45 = new System.Windows.Forms.Label();
-            this.textBox42 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel15 = new System.Windows.Forms.FlowLayoutPanel();
             this.label21 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel16 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label24 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
             this.textBox23 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel21 = new System.Windows.Forms.FlowLayoutPanel();
@@ -95,17 +85,16 @@
             this.btnVoltar = new System.Windows.Forms.Button();
             this.btnFinalizar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel12.SuspendLayout();
-            this.flowLayoutPanel14.SuspendLayout();
-            this.flowLayoutPanel13.SuspendLayout();
             this.flowLayoutPanel15.SuspendLayout();
-            this.flowLayoutPanel16.SuspendLayout();
             this.flowLayoutPanel21.SuspendLayout();
             this.flowLayoutPanel22.SuspendLayout();
             this.flowLayoutPanel17.SuspendLayout();
             this.flowLayoutPanel18.SuspendLayout();
             this.flowLayoutPanel19.SuspendLayout();
             this.flowLayoutPanel20.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label18
@@ -113,7 +102,7 @@
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(313, 54);
+            this.label18.Location = new System.Drawing.Point(408, 249);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(293, 37);
             this.label18.TabIndex = 10;
@@ -121,83 +110,38 @@
             // 
             // flowLayoutPanel12
             // 
-            this.flowLayoutPanel12.Controls.Add(this.flowLayoutPanel14);
-            this.flowLayoutPanel12.Controls.Add(this.flowLayoutPanel13);
             this.flowLayoutPanel12.Controls.Add(this.flowLayoutPanel15);
             this.flowLayoutPanel12.Controls.Add(this.flowLayoutPanel21);
             this.flowLayoutPanel12.Controls.Add(this.flowLayoutPanel17);
             this.flowLayoutPanel12.Controls.Add(this.flowLayoutPanel19);
-            this.flowLayoutPanel12.Location = new System.Drawing.Point(12, 97);
+            this.flowLayoutPanel12.Location = new System.Drawing.Point(107, 292);
             this.flowLayoutPanel12.Name = "flowLayoutPanel12";
             this.flowLayoutPanel12.Size = new System.Drawing.Size(893, 266);
             this.flowLayoutPanel12.TabIndex = 9;
             // 
-            // flowLayoutPanel14
+            // txtResponsavel
             // 
-            this.flowLayoutPanel14.Controls.Add(this.label20);
-            this.flowLayoutPanel14.Controls.Add(this.textBox14);
-            this.flowLayoutPanel14.Location = new System.Drawing.Point(3, 3);
-            this.flowLayoutPanel14.Name = "flowLayoutPanel14";
-            this.flowLayoutPanel14.Size = new System.Drawing.Size(922, 38);
-            this.flowLayoutPanel14.TabIndex = 0;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(3, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(127, 24);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "Nome da mãe";
+            this.txtResponsavel.AutoSize = true;
+            this.txtResponsavel.BackColor = System.Drawing.Color.Transparent;
+            this.txtResponsavel.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtResponsavel.Location = new System.Drawing.Point(6, 20);
+            this.txtResponsavel.Name = "txtResponsavel";
+            this.txtResponsavel.Size = new System.Drawing.Size(197, 24);
+            this.txtResponsavel.TabIndex = 0;
+            this.txtResponsavel.Text = "Nome do responsável:";
             // 
             // textBox14
             // 
             this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(136, 3);
+            this.textBox14.Location = new System.Drawing.Point(239, 20);
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(729, 29);
+            this.textBox14.Size = new System.Drawing.Size(444, 29);
             this.textBox14.TabIndex = 1;
-            // 
-            // flowLayoutPanel13
-            // 
-            this.flowLayoutPanel13.Controls.Add(this.label45);
-            this.flowLayoutPanel13.Controls.Add(this.textBox42);
-            this.flowLayoutPanel13.Location = new System.Drawing.Point(3, 47);
-            this.flowLayoutPanel13.Name = "flowLayoutPanel13";
-            this.flowLayoutPanel13.Size = new System.Drawing.Size(922, 38);
-            this.flowLayoutPanel13.TabIndex = 9;
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.BackColor = System.Drawing.Color.Transparent;
-            this.label45.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(3, 0);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(116, 24);
-            this.label45.TabIndex = 0;
-            this.label45.Text = "Nome do Pai";
-            // 
-            // textBox42
-            // 
-            this.textBox42.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox42.Location = new System.Drawing.Point(125, 3);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(740, 29);
-            this.textBox42.TabIndex = 1;
             // 
             // flowLayoutPanel15
             // 
-            this.flowLayoutPanel15.Controls.Add(this.label21);
-            this.flowLayoutPanel15.Controls.Add(this.textBox15);
-            this.flowLayoutPanel15.Controls.Add(this.label22);
-            this.flowLayoutPanel15.Controls.Add(this.textBox16);
-            this.flowLayoutPanel15.Controls.Add(this.label23);
-            this.flowLayoutPanel15.Controls.Add(this.textBox17);
             this.flowLayoutPanel15.Controls.Add(this.flowLayoutPanel16);
-            this.flowLayoutPanel15.Location = new System.Drawing.Point(3, 91);
+            this.flowLayoutPanel15.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel15.Name = "flowLayoutPanel15";
             this.flowLayoutPanel15.Size = new System.Drawing.Size(962, 38);
             this.flowLayoutPanel15.TabIndex = 5;
@@ -207,7 +151,7 @@
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(3, 0);
+            this.label21.Location = new System.Drawing.Point(6, 68);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(109, 24);
             this.label21.TabIndex = 7;
@@ -216,7 +160,7 @@
             // textBox15
             // 
             this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(118, 3);
+            this.textBox15.Location = new System.Drawing.Point(239, 65);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(207, 29);
             this.textBox15.TabIndex = 8;
@@ -226,96 +170,33 @@
             this.label22.AutoSize = true;
             this.label22.BackColor = System.Drawing.Color.Transparent;
             this.label22.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(331, 0);
+            this.label22.Location = new System.Drawing.Point(478, 68);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(41, 24);
             this.label22.TabIndex = 9;
             this.label22.Text = "RG:";
             // 
-            // textBox16
-            // 
-            this.textBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(378, 3);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(213, 29);
-            this.textBox16.TabIndex = 10;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.label23.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(597, 0);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(49, 24);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "CPF:";
-            // 
             // textBox17
             // 
             this.textBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(652, 3);
+            this.textBox17.Location = new System.Drawing.Point(530, 65);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(213, 29);
             this.textBox17.TabIndex = 1;
             // 
             // flowLayoutPanel16
             // 
-            this.flowLayoutPanel16.Controls.Add(this.label24);
-            this.flowLayoutPanel16.Controls.Add(this.textBox18);
-            this.flowLayoutPanel16.Controls.Add(this.label25);
-            this.flowLayoutPanel16.Controls.Add(this.textBox19);
-            this.flowLayoutPanel16.Controls.Add(this.label26);
-            this.flowLayoutPanel16.Controls.Add(this.textBox23);
-            this.flowLayoutPanel16.Location = new System.Drawing.Point(3, 38);
+            this.flowLayoutPanel16.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel16.Name = "flowLayoutPanel16";
             this.flowLayoutPanel16.Size = new System.Drawing.Size(962, 38);
             this.flowLayoutPanel16.TabIndex = 11;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.label24.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(3, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(120, 27);
-            this.label24.TabIndex = 7;
-            this.label24.Text = "Data Nasc.:";
-            // 
-            // textBox18
-            // 
-            this.textBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.Location = new System.Drawing.Point(129, 3);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(207, 29);
-            this.textBox18.TabIndex = 8;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(342, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(46, 27);
-            this.label25.TabIndex = 9;
-            this.label25.Text = "RG:";
-            // 
-            // textBox19
-            // 
-            this.textBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.Location = new System.Drawing.Point(394, 3);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(213, 29);
-            this.textBox19.TabIndex = 10;
             // 
             // label26
             // 
             this.label26.AutoSize = true;
             this.label26.BackColor = System.Drawing.Color.Transparent;
             this.label26.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(613, 0);
+            this.label26.Location = new System.Drawing.Point(759, 66);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(56, 27);
             this.label26.TabIndex = 0;
@@ -324,21 +205,19 @@
             // textBox23
             // 
             this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox23.Location = new System.Drawing.Point(675, 3);
+            this.textBox23.Location = new System.Drawing.Point(821, 65);
             this.textBox23.Name = "textBox23";
             this.textBox23.Size = new System.Drawing.Size(213, 29);
             this.textBox23.TabIndex = 1;
             // 
             // flowLayoutPanel21
             // 
-            this.flowLayoutPanel21.Controls.Add(this.label39);
-            this.flowLayoutPanel21.Controls.Add(this.textBox36);
             this.flowLayoutPanel21.Controls.Add(this.label40);
             this.flowLayoutPanel21.Controls.Add(this.textBox37);
             this.flowLayoutPanel21.Controls.Add(this.label41);
             this.flowLayoutPanel21.Controls.Add(this.textBox38);
             this.flowLayoutPanel21.Controls.Add(this.flowLayoutPanel22);
-            this.flowLayoutPanel21.Location = new System.Drawing.Point(3, 135);
+            this.flowLayoutPanel21.Location = new System.Drawing.Point(3, 47);
             this.flowLayoutPanel21.Name = "flowLayoutPanel21";
             this.flowLayoutPanel21.Size = new System.Drawing.Size(939, 38);
             this.flowLayoutPanel21.TabIndex = 10;
@@ -348,7 +227,7 @@
             this.label39.AutoSize = true;
             this.label39.BackColor = System.Drawing.Color.Transparent;
             this.label39.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(3, 0);
+            this.label39.Location = new System.Drawing.Point(6, 110);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(64, 24);
             this.label39.TabIndex = 7;
@@ -357,7 +236,7 @@
             // textBox36
             // 
             this.textBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox36.Location = new System.Drawing.Point(73, 3);
+            this.textBox36.Location = new System.Drawing.Point(239, 110);
             this.textBox36.Name = "textBox36";
             this.textBox36.Size = new System.Drawing.Size(293, 29);
             this.textBox36.TabIndex = 8;
@@ -367,7 +246,7 @@
             this.label40.AutoSize = true;
             this.label40.BackColor = System.Drawing.Color.Transparent;
             this.label40.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(372, 0);
+            this.label40.Location = new System.Drawing.Point(3, 0);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(57, 24);
             this.label40.TabIndex = 9;
@@ -376,7 +255,7 @@
             // textBox37
             // 
             this.textBox37.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox37.Location = new System.Drawing.Point(435, 3);
+            this.textBox37.Location = new System.Drawing.Point(66, 3);
             this.textBox37.Name = "textBox37";
             this.textBox37.Size = new System.Drawing.Size(183, 29);
             this.textBox37.TabIndex = 10;
@@ -386,7 +265,7 @@
             this.label41.AutoSize = true;
             this.label41.BackColor = System.Drawing.Color.Transparent;
             this.label41.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(624, 0);
+            this.label41.Location = new System.Drawing.Point(255, 0);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(44, 24);
             this.label41.TabIndex = 0;
@@ -395,7 +274,7 @@
             // textBox38
             // 
             this.textBox38.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox38.Location = new System.Drawing.Point(674, 3);
+            this.textBox38.Location = new System.Drawing.Point(305, 3);
             this.textBox38.Name = "textBox38";
             this.textBox38.Size = new System.Drawing.Size(191, 29);
             this.textBox38.TabIndex = 1;
@@ -479,7 +358,7 @@
             this.flowLayoutPanel17.Controls.Add(this.label29);
             this.flowLayoutPanel17.Controls.Add(this.textBox26);
             this.flowLayoutPanel17.Controls.Add(this.flowLayoutPanel18);
-            this.flowLayoutPanel17.Location = new System.Drawing.Point(3, 179);
+            this.flowLayoutPanel17.Location = new System.Drawing.Point(3, 91);
             this.flowLayoutPanel17.Name = "flowLayoutPanel17";
             this.flowLayoutPanel17.Size = new System.Drawing.Size(937, 38);
             this.flowLayoutPanel17.TabIndex = 7;
@@ -620,7 +499,7 @@
             this.flowLayoutPanel19.Controls.Add(this.label35);
             this.flowLayoutPanel19.Controls.Add(this.textBox32);
             this.flowLayoutPanel19.Controls.Add(this.flowLayoutPanel20);
-            this.flowLayoutPanel19.Location = new System.Drawing.Point(3, 223);
+            this.flowLayoutPanel19.Location = new System.Drawing.Point(3, 135);
             this.flowLayoutPanel19.Name = "flowLayoutPanel19";
             this.flowLayoutPanel19.Size = new System.Drawing.Size(895, 38);
             this.flowLayoutPanel19.TabIndex = 9;
@@ -759,7 +638,7 @@
             this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoltar.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVoltar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.btnVoltar.Location = new System.Drawing.Point(12, 379);
+            this.btnVoltar.Location = new System.Drawing.Point(107, 574);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(113, 36);
             this.btnVoltar.TabIndex = 17;
@@ -774,7 +653,7 @@
             this.btnFinalizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFinalizar.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFinalizar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.btnFinalizar.Location = new System.Drawing.Point(766, 379);
+            this.btnFinalizar.Location = new System.Drawing.Point(861, 574);
             this.btnFinalizar.Name = "btnFinalizar";
             this.btnFinalizar.Size = new System.Drawing.Size(113, 36);
             this.btnFinalizar.TabIndex = 16;
@@ -784,16 +663,34 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel1.Location = new System.Drawing.Point(0, 435);
+            this.panel1.Location = new System.Drawing.Point(95, 630);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(893, 18);
             this.panel1.TabIndex = 15;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.textBox36);
+            this.panel2.Controls.Add(this.label39);
+            this.panel2.Controls.Add(this.textBox17);
+            this.panel2.Controls.Add(this.textBox15);
+            this.panel2.Controls.Add(this.label21);
+            this.panel2.Controls.Add(this.textBox14);
+            this.panel2.Controls.Add(this.textBox23);
+            this.panel2.Controls.Add(this.label26);
+            this.panel2.Controls.Add(this.txtResponsavel);
+            this.panel2.Controls.Add(this.label22);
+            this.panel2.Location = new System.Drawing.Point(25, 55);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1050, 156);
+            this.panel2.TabIndex = 18;
             // 
             // frmCadastrarResponsaveis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(893, 452);
+            this.ClientSize = new System.Drawing.Size(1177, 690);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnFinalizar);
             this.Controls.Add(this.panel1);
@@ -805,14 +702,7 @@
             this.Text = "frmCadastrarResponsaveis";
             this.Load += new System.EventHandler(this.frmCadastrarResponsaveis_Load);
             this.flowLayoutPanel12.ResumeLayout(false);
-            this.flowLayoutPanel14.ResumeLayout(false);
-            this.flowLayoutPanel14.PerformLayout();
-            this.flowLayoutPanel13.ResumeLayout(false);
-            this.flowLayoutPanel13.PerformLayout();
             this.flowLayoutPanel15.ResumeLayout(false);
-            this.flowLayoutPanel15.PerformLayout();
-            this.flowLayoutPanel16.ResumeLayout(false);
-            this.flowLayoutPanel16.PerformLayout();
             this.flowLayoutPanel21.ResumeLayout(false);
             this.flowLayoutPanel21.PerformLayout();
             this.flowLayoutPanel22.ResumeLayout(false);
@@ -825,6 +715,8 @@
             this.flowLayoutPanel19.PerformLayout();
             this.flowLayoutPanel20.ResumeLayout(false);
             this.flowLayoutPanel20.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -834,24 +726,14 @@
 
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel12;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel14;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label txtResponsavel;
         private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel13;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.TextBox textBox42;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel15;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.Label label23;
         private System.Windows.Forms.TextBox textBox17;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel16;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TextBox textBox19;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.TextBox textBox23;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel21;
@@ -899,5 +781,6 @@
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Button btnFinalizar;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
