@@ -41,10 +41,8 @@
             this.pMoverTel = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnFechar = new System.Windows.Forms.Button();
             this.flpAlunoLayout = new System.Windows.Forms.FlowLayoutPanel();
             this.btnCadastraAluno = new System.Windows.Forms.Button();
-            this.btnMinimizar = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -58,21 +56,22 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.flowLayoutPanel1.Controls.Add(this.pMoverTel);
             this.flowLayoutPanel1.Controls.Add(this.panel2);
             this.flowLayoutPanel1.Controls.Add(this.panel6);
             this.flowLayoutPanel1.Controls.Add(this.panel7);
             this.flowLayoutPanel1.Controls.Add(this.panel8);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 45);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, -1);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(253, 469);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(253, 515);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.btnAluno);
-            this.panel2.Location = new System.Drawing.Point(3, 3);
+            this.panel2.Location = new System.Drawing.Point(3, 73);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(248, 64);
             this.panel2.TabIndex = 4;
@@ -95,7 +94,7 @@
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.btnTimes);
-            this.panel6.Location = new System.Drawing.Point(3, 73);
+            this.panel6.Location = new System.Drawing.Point(3, 143);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(248, 64);
             this.panel6.TabIndex = 5;
@@ -118,7 +117,7 @@
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.btnJogos);
-            this.panel7.Location = new System.Drawing.Point(3, 143);
+            this.panel7.Location = new System.Drawing.Point(3, 213);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(248, 64);
             this.panel7.TabIndex = 6;
@@ -141,7 +140,7 @@
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel8.Controls.Add(this.btnCompeticoes);
-            this.panel8.Location = new System.Drawing.Point(3, 213);
+            this.panel8.Location = new System.Drawing.Point(3, 283);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(248, 64);
             this.panel8.TabIndex = 7;
@@ -163,22 +162,17 @@
             // pMoverTel
             // 
             this.pMoverTel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(87)))), ((int)(((byte)(54)))));
-            this.pMoverTel.Controls.Add(this.btnFechar);
             this.pMoverTel.Controls.Add(this.pictureBox1);
-            this.pMoverTel.Controls.Add(this.btnMinimizar);
             this.pMoverTel.Controls.Add(this.label1);
-            this.pMoverTel.Location = new System.Drawing.Point(0, 0);
+            this.pMoverTel.Location = new System.Drawing.Point(3, 3);
             this.pMoverTel.Name = "pMoverTel";
-            this.pMoverTel.Size = new System.Drawing.Size(874, 45);
+            this.pMoverTel.Size = new System.Drawing.Size(250, 64);
             this.pMoverTel.TabIndex = 2;
-            this.pMoverTel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pMoverTel_MouseDown);
-            this.pMoverTel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pMoverTel_MouseMove);
-            this.pMoverTel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pMoverTel_MouseUp);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(191, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(192, 17);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(35, 33);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -190,26 +184,12 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.label1.Location = new System.Drawing.Point(37, 2);
+            this.label1.Location = new System.Drawing.Point(38, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(148, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "ProjetoBD";
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // btnFechar
-            // 
-            this.btnFechar.BackColor = System.Drawing.Color.Transparent;
-            this.btnFechar.FlatAppearance.BorderSize = 0;
-            this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFechar.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
-            this.btnFechar.Location = new System.Drawing.Point(825, 0);
-            this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(47, 45);
-            this.btnFechar.TabIndex = 3;
-            this.btnFechar.Text = "x";
-            this.btnFechar.UseVisualStyleBackColor = false;
-            this.btnFechar.Click += new System.EventHandler(this.button1_Click);
             // 
             // flpAlunoLayout
             // 
@@ -234,29 +214,14 @@
             this.btnCadastraAluno.UseVisualStyleBackColor = false;
             this.btnCadastraAluno.Click += new System.EventHandler(this.btnCadastraAluno_Click);
             // 
-            // btnMinimizar
-            // 
-            this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
-            this.btnMinimizar.FlatAppearance.BorderSize = 0;
-            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimizar.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
-            this.btnMinimizar.Location = new System.Drawing.Point(778, 0);
-            this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(47, 45);
-            this.btnMinimizar.TabIndex = 5;
-            this.btnMinimizar.Text = "-";
-            this.btnMinimizar.UseVisualStyleBackColor = false;
-            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
-            // 
             // frmPaginaInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(872, 508);
             this.Controls.Add(this.flpAlunoLayout);
-            this.Controls.Add(this.pMoverTel);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "frmPaginaInicial";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPaginaInicial";
@@ -281,7 +246,6 @@
         public System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btnFechar;
         private System.Windows.Forms.Button btnAluno;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button btnTimes;
@@ -291,6 +255,5 @@
         private System.Windows.Forms.Button btnCompeticoes;
         private System.Windows.Forms.FlowLayoutPanel flpAlunoLayout;
         private System.Windows.Forms.Button btnCadastraAluno;
-        private System.Windows.Forms.Button btnMinimizar;
     }
 }

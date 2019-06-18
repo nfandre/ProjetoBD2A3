@@ -28,10 +28,7 @@ namespace Apresentacao
 
         }
 
-        private void btnFechar_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+
 
         private void label3_Click(object sender, EventArgs e)
         {
@@ -54,27 +51,10 @@ namespace Apresentacao
             this.Hide();
         }
 
-        private void pMoverTel_MouseDown(object sender, MouseEventArgs e)
-        {
-            fm.MouseDown(e);
-        }
 
-        private void pMoverTel_MouseUp(object sender, MouseEventArgs e)
-        {
-            fm.MoveUp();
-        }
 
-        private void pMoverTel_Move(object sender, EventArgs e)
-        {
 
-        }
 
-        private void pMoverTel_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (fm.MouseMover(e, this) == true)
-            {
-                this.SetDesktopLocation(MousePosition.X - fm.movX, MousePosition.Y - fm.movY);
-            }
-        }
+ 
     }
 }

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastrarResponsaveis));
             this.label18 = new System.Windows.Forms.Label();
             this.flowLayoutPanel12 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel14 = new System.Windows.Forms.FlowLayoutPanel();
@@ -93,17 +92,9 @@
             this.textBox34 = new System.Windows.Forms.TextBox();
             this.label38 = new System.Windows.Forms.Label();
             this.textBox35 = new System.Windows.Forms.TextBox();
-            this.btnMinimizar = new System.Windows.Forms.Button();
-            this.pMoverTel = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pbLogoAssocia = new System.Windows.Forms.PictureBox();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.btnFinalizar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel12.SuspendLayout();
             this.flowLayoutPanel14.SuspendLayout();
             this.flowLayoutPanel13.SuspendLayout();
@@ -115,9 +106,6 @@
             this.flowLayoutPanel18.SuspendLayout();
             this.flowLayoutPanel19.SuspendLayout();
             this.flowLayoutPanel20.SuspendLayout();
-            this.pMoverTel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoAssocia)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label18
@@ -764,56 +752,6 @@
             this.textBox35.Size = new System.Drawing.Size(213, 29);
             this.textBox35.TabIndex = 1;
             // 
-            // btnMinimizar
-            // 
-            this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
-            this.btnMinimizar.FlatAppearance.BorderSize = 0;
-            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimizar.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
-            this.btnMinimizar.Location = new System.Drawing.Point(796, -3);
-            this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(47, 43);
-            this.btnMinimizar.TabIndex = 5;
-            this.btnMinimizar.Text = "-";
-            this.btnMinimizar.UseVisualStyleBackColor = false;
-            // 
-            // pMoverTel
-            // 
-            this.pMoverTel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(87)))), ((int)(((byte)(54)))));
-            this.pMoverTel.Controls.Add(this.button1);
-            this.pMoverTel.Controls.Add(this.btnMinimizar);
-            this.pMoverTel.Controls.Add(this.pbLogoAssocia);
-            this.pMoverTel.Location = new System.Drawing.Point(0, 3);
-            this.pMoverTel.Name = "pMoverTel";
-            this.pMoverTel.Size = new System.Drawing.Size(905, 41);
-            this.pMoverTel.TabIndex = 11;
-            this.pMoverTel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pMoverTel_MouseDown);
-            this.pMoverTel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pMoverTel_MouseMove);
-            this.pMoverTel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pMoverTel_MouseUp);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
-            this.button1.Location = new System.Drawing.Point(846, -5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(47, 45);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "x";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // pbLogoAssocia
-            // 
-            this.pbLogoAssocia.Image = ((System.Drawing.Image)(resources.GetObject("pbLogoAssocia.Image")));
-            this.pbLogoAssocia.Location = new System.Drawing.Point(5, 2);
-            this.pbLogoAssocia.Name = "pbLogoAssocia";
-            this.pbLogoAssocia.Size = new System.Drawing.Size(50, 36);
-            this.pbLogoAssocia.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbLogoAssocia.TabIndex = 4;
-            this.pbLogoAssocia.TabStop = false;
-            // 
             // btnVoltar
             // 
             this.btnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(87)))), ((int)(((byte)(54)))));
@@ -846,59 +784,22 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel1.Controls.Add(this.panel5);
             this.panel1.Location = new System.Drawing.Point(0, 435);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(893, 18);
             this.panel1.TabIndex = 15;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel5.Location = new System.Drawing.Point(-5, 14);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(893, 18);
-            this.panel5.TabIndex = 16;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel2.Location = new System.Drawing.Point(0, -3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(893, 18);
-            this.panel2.TabIndex = 16;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel3.Location = new System.Drawing.Point(-8, 2);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(10, 451);
-            this.panel3.TabIndex = 18;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel4.Location = new System.Drawing.Point(891, 2);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(10, 451);
-            this.panel4.TabIndex = 19;
             // 
             // frmCadastrarResponsaveis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(893, 452);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnFinalizar);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pMoverTel);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.flowLayoutPanel12);
-            this.Controls.Add(this.panel2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "frmCadastrarResponsaveis";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCadastrarResponsaveis";
@@ -924,9 +825,6 @@
             this.flowLayoutPanel19.PerformLayout();
             this.flowLayoutPanel20.ResumeLayout(false);
             this.flowLayoutPanel20.PerformLayout();
-            this.pMoverTel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoAssocia)).EndInit();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -998,16 +896,8 @@
         private System.Windows.Forms.TextBox textBox34;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.Button btnMinimizar;
-        private System.Windows.Forms.Panel pMoverTel;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pbLogoAssocia;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Button btnFinalizar;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel5;
     }
 }

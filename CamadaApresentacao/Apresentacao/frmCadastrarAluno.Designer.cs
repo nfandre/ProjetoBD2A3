@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastrarAluno));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.lblCategoria = new System.Windows.Forms.Label();
@@ -93,18 +92,10 @@
             this.label17 = new System.Windows.Forms.Label();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pbLogoAssocia = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.pMoverTel = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnMinimizar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.btnProximo = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
@@ -117,9 +108,6 @@
             this.flowLayoutPanel8.SuspendLayout();
             this.flowLayoutPanel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoAssocia)).BeginInit();
-            this.pMoverTel.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -785,16 +773,6 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pbLogoAssocia
-            // 
-            this.pbLogoAssocia.Image = ((System.Drawing.Image)(resources.GetObject("pbLogoAssocia.Image")));
-            this.pbLogoAssocia.Location = new System.Drawing.Point(5, 2);
-            this.pbLogoAssocia.Name = "pbLogoAssocia";
-            this.pbLogoAssocia.Size = new System.Drawing.Size(50, 36);
-            this.pbLogoAssocia.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbLogoAssocia.TabIndex = 4;
-            this.pbLogoAssocia.TabStop = false;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -807,64 +785,13 @@
             this.label3.Text = "FICHA DE CADASTRO:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // pMoverTel
-            // 
-            this.pMoverTel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(87)))), ((int)(((byte)(54)))));
-            this.pMoverTel.Controls.Add(this.button1);
-            this.pMoverTel.Controls.Add(this.btnMinimizar);
-            this.pMoverTel.Controls.Add(this.pbLogoAssocia);
-            this.pMoverTel.Location = new System.Drawing.Point(0, 0);
-            this.pMoverTel.Name = "pMoverTel";
-            this.pMoverTel.Size = new System.Drawing.Size(899, 41);
-            this.pMoverTel.TabIndex = 9;
-            this.pMoverTel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pMoverTel_MouseDown);
-            this.pMoverTel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pMoverTel_MouseMove);
-            this.pMoverTel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pMoverTel_MouseUp);
-            this.pMoverTel.Move += new System.EventHandler(this.pMoverTel_Move);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
-            this.button1.Location = new System.Drawing.Point(847, -4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(47, 45);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "x";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnMinimizar
-            // 
-            this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
-            this.btnMinimizar.FlatAppearance.BorderSize = 0;
-            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimizar.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
-            this.btnMinimizar.Location = new System.Drawing.Point(800, -4);
-            this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(47, 45);
-            this.btnMinimizar.TabIndex = 5;
-            this.btnMinimizar.Text = "-";
-            this.btnMinimizar.UseVisualStyleBackColor = false;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(0, 458);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(893, 18);
             this.panel1.TabIndex = 12;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel2.Location = new System.Drawing.Point(0, 15);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(893, 18);
-            this.panel2.TabIndex = 13;
             // 
             // btnProximo
             // 
@@ -896,47 +823,19 @@
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel3.Location = new System.Drawing.Point(0, -15);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(893, 18);
-            this.panel3.TabIndex = 15;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel4.Location = new System.Drawing.Point(-12, -2);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(15, 478);
-            this.panel4.TabIndex = 16;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel5.Location = new System.Drawing.Point(891, -1);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(15, 478);
-            this.panel5.TabIndex = 17;
-            // 
             // frmCadastrarAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(893, 476);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnProximo);
-            this.Controls.Add(this.pMoverTel);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "frmCadastrarAluno";
             this.Padding = new System.Windows.Forms.Padding(2);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -964,9 +863,6 @@
             this.flowLayoutPanel9.ResumeLayout(false);
             this.flowLayoutPanel9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogoAssocia)).EndInit();
-            this.pMoverTel.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1037,17 +933,9 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pbLogoAssocia;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel pMoverTel;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnMinimizar;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnProximo;
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel5;
     }
 }

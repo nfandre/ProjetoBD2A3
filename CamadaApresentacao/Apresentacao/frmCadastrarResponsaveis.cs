@@ -28,22 +28,6 @@ namespace Apresentacao
             this.Hide();
         }
 
-        private void pMoverTel_MouseDown(object sender, MouseEventArgs e)
-        {
-            fm.MouseDown(e);
-        }
 
-        private void pMoverTel_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (fm.MouseMover(e, this) == true)
-            {
-                this.SetDesktopLocation(MousePosition.X - fm.movX, MousePosition.Y - fm.movY);
-            }
-        }
-
-        private void pMoverTel_MouseUp(object sender, MouseEventArgs e)
-        {
-            fm.MoveUp();
-        }
     }
 }
