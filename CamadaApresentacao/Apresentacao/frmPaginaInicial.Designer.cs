@@ -41,9 +41,10 @@
             this.btnJogos = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
             this.btnCompeticoes = new System.Windows.Forms.Button();
-            this.flpAlunoLayout = new System.Windows.Forms.FlowLayoutPanel();
+            this.pAluno = new System.Windows.Forms.FlowLayoutPanel();
             this.btnCadastraAluno = new System.Windows.Forms.Button();
             this.btnConsultar = new System.Windows.Forms.Button();
+            this.btnProfessor = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.pMoverTel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -51,7 +52,7 @@
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.flpAlunoLayout.SuspendLayout();
+            this.pAluno.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -59,6 +60,7 @@
             this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.flowLayoutPanel1.Controls.Add(this.pMoverTel);
             this.flowLayoutPanel1.Controls.Add(this.panel2);
+            this.flowLayoutPanel1.Controls.Add(this.btnProfessor);
             this.flowLayoutPanel1.Controls.Add(this.panel6);
             this.flowLayoutPanel1.Controls.Add(this.panel7);
             this.flowLayoutPanel1.Controls.Add(this.panel8);
@@ -122,12 +124,13 @@
             this.btnAluno.TabIndex = 4;
             this.btnAluno.Text = "Aluno";
             this.btnAluno.UseVisualStyleBackColor = false;
+            this.btnAluno.Click += new System.EventHandler(this.BtnAluno_Click);
             // 
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.btnTimes);
-            this.panel6.Location = new System.Drawing.Point(3, 143);
+            this.panel6.Location = new System.Drawing.Point(3, 213);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(248, 64);
             this.panel6.TabIndex = 5;
@@ -145,12 +148,13 @@
             this.btnTimes.TabIndex = 4;
             this.btnTimes.Text = "Times";
             this.btnTimes.UseVisualStyleBackColor = false;
+            this.btnTimes.Click += new System.EventHandler(this.BtnTimes_Click);
             // 
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.btnJogos);
-            this.panel7.Location = new System.Drawing.Point(3, 213);
+            this.panel7.Location = new System.Drawing.Point(3, 283);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(248, 64);
             this.panel7.TabIndex = 6;
@@ -173,7 +177,7 @@
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel8.Controls.Add(this.btnCompeticoes);
-            this.panel8.Location = new System.Drawing.Point(3, 283);
+            this.panel8.Location = new System.Drawing.Point(3, 353);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(248, 64);
             this.panel8.TabIndex = 7;
@@ -192,14 +196,14 @@
             this.btnCompeticoes.Text = "Competições";
             this.btnCompeticoes.UseVisualStyleBackColor = false;
             // 
-            // flpAlunoLayout
+            // pAluno
             // 
-            this.flpAlunoLayout.Controls.Add(this.btnCadastraAluno);
-            this.flpAlunoLayout.Controls.Add(this.btnConsultar);
-            this.flpAlunoLayout.Location = new System.Drawing.Point(316, 135);
-            this.flpAlunoLayout.Name = "flpAlunoLayout";
-            this.flpAlunoLayout.Size = new System.Drawing.Size(434, 309);
-            this.flpAlunoLayout.TabIndex = 4;
+            this.pAluno.Controls.Add(this.btnCadastraAluno);
+            this.pAluno.Controls.Add(this.btnConsultar);
+            this.pAluno.Location = new System.Drawing.Point(384, 142);
+            this.pAluno.Name = "pAluno";
+            this.pAluno.Size = new System.Drawing.Size(382, 309);
+            this.pAluno.TabIndex = 4;
             // 
             // btnCadastraAluno
             // 
@@ -231,12 +235,28 @@
             this.btnConsultar.UseVisualStyleBackColor = false;
             this.btnConsultar.Click += new System.EventHandler(this.BtnConsultar_Click);
             // 
+            // btnProfessor
+            // 
+            this.btnProfessor.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnProfessor.FlatAppearance.BorderSize = 0;
+            this.btnProfessor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProfessor.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
+            this.btnProfessor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
+            this.btnProfessor.Location = new System.Drawing.Point(3, 143);
+            this.btnProfessor.Name = "btnProfessor";
+            this.btnProfessor.Size = new System.Drawing.Size(250, 64);
+            this.btnProfessor.TabIndex = 5;
+            this.btnProfessor.Text = "Professor";
+            this.btnProfessor.UseVisualStyleBackColor = false;
+            this.btnProfessor.Click += new System.EventHandler(this.BtnProfessor_Click);
+            // 
             // frmPaginaInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(872, 508);
-            this.Controls.Add(this.flpAlunoLayout);
+            this.Controls.Add(this.pAluno);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "frmPaginaInicial";
@@ -251,7 +271,7 @@
             this.panel6.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
-            this.flpAlunoLayout.ResumeLayout(false);
+            this.pAluno.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -270,8 +290,9 @@
         private System.Windows.Forms.Button btnJogos;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Button btnCompeticoes;
-        private System.Windows.Forms.FlowLayoutPanel flpAlunoLayout;
+        private System.Windows.Forms.FlowLayoutPanel pAluno;
         private System.Windows.Forms.Button btnCadastraAluno;
         private System.Windows.Forms.Button btnConsultar;
+        private System.Windows.Forms.Button btnProfessor;
     }
 }

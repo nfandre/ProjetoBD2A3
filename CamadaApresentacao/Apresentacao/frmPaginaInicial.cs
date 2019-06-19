@@ -62,5 +62,20 @@ namespace Apresentacao
             frmConsultarAlunos consultarAlunos = new frmConsultarAlunos();
             consultarAlunos.ShowDialog();
         }
+
+        private void BtnTimes_Click(object sender, EventArgs e)
+        {
+            pAluno.Visible = false;
+        }
+
+        private void BtnAluno_Click(object sender, EventArgs e)
+        {
+            pAluno.Visible = true;
+        }
+
+        private void BtnProfessor_Click(object sender, EventArgs e)
+        {
+            pAluno.Visible = true;
+        }
     }
 }

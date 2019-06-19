@@ -8,7 +8,7 @@ namespace Apresentacao
 {
     public enum TipoListagem
     {
-        Produtos,
-        Funcionario
+        Aluno,
+        Professor
     }
 }
