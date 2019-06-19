@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CamadaNegocios;
+using ObjetoTransferencia;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -35,12 +37,6 @@ namespace Apresentacao
 
         }
 
-        private void btnProximo_Click(object sender, EventArgs e)
-        {
-            frmCadastrarResponsaveis cadastrarResponsaveis = new frmCadastrarResponsaveis();
-            cadastrarResponsaveis.ShowDialog();
-        }
-
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -74,6 +70,31 @@ namespace Apresentacao
             btnDadosPessoais.BackColor = Color.DarkGray;
             btnDadosResponsaveis.BackColor = Color.FromArgb(229, 87, 54);
             pDadosPessoais.Visible = true;
+        }
+
+        private void BtnFinalizar_Click(object sender, EventArgs e)
+        {
+            Aluno a = new Aluno();
+
+
+            a.nome = txtNome.Text;
+            a.rg = txtRG.Text;
+            a.cpf = txtCPF.Text;
+            a.dataNascimento = Convert.ToDateTime(txtDataNascimento.Text);
+            a.email = txtEmail.Text;
+            a.endereco = txtEndereco.Text;
+            a.numero = txtNumero.Text;
+            a.apto = txtApto.Text;
+            a.telefone = txtTelefone.Text;
+            a.celular = txtCelular.Text;
+            a.cep = txtCEP.Text;
+
+            AlunoNegocios alunoNegocios = new AlunoNegocios();
+
+
+            alunoNegocios.inserirAluno(a);
+
+
         }
     }
 }

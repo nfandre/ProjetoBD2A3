@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPaginaInicial));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pMoverTel = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnAluno = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -38,18 +41,16 @@
             this.btnJogos = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
             this.btnCompeticoes = new System.Windows.Forms.Button();
-            this.pMoverTel = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.flpAlunoLayout = new System.Windows.Forms.FlowLayoutPanel();
             this.btnCadastraAluno = new System.Windows.Forms.Button();
+            this.btnConsultar = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
+            this.pMoverTel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.pMoverTel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.flpAlunoLayout.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,6 +67,38 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(253, 515);
             this.flowLayoutPanel1.TabIndex = 0;
+            // 
+            // pMoverTel
+            // 
+            this.pMoverTel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(87)))), ((int)(((byte)(54)))));
+            this.pMoverTel.Controls.Add(this.pictureBox1);
+            this.pMoverTel.Controls.Add(this.label1);
+            this.pMoverTel.Location = new System.Drawing.Point(3, 3);
+            this.pMoverTel.Name = "pMoverTel";
+            this.pMoverTel.Size = new System.Drawing.Size(250, 64);
+            this.pMoverTel.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(192, 17);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(35, 33);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
+            this.label1.Location = new System.Drawing.Point(38, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(148, 37);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "ProjetoBD";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel2
             // 
@@ -159,41 +192,10 @@
             this.btnCompeticoes.Text = "Competições";
             this.btnCompeticoes.UseVisualStyleBackColor = false;
             // 
-            // pMoverTel
-            // 
-            this.pMoverTel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(87)))), ((int)(((byte)(54)))));
-            this.pMoverTel.Controls.Add(this.pictureBox1);
-            this.pMoverTel.Controls.Add(this.label1);
-            this.pMoverTel.Location = new System.Drawing.Point(3, 3);
-            this.pMoverTel.Name = "pMoverTel";
-            this.pMoverTel.Size = new System.Drawing.Size(250, 64);
-            this.pMoverTel.TabIndex = 2;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(192, 17);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(35, 33);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.label1.Location = new System.Drawing.Point(38, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 37);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ProjetoBD";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
             // flpAlunoLayout
             // 
             this.flpAlunoLayout.Controls.Add(this.btnCadastraAluno);
+            this.flpAlunoLayout.Controls.Add(this.btnConsultar);
             this.flpAlunoLayout.Location = new System.Drawing.Point(316, 135);
             this.flpAlunoLayout.Name = "flpAlunoLayout";
             this.flpAlunoLayout.Size = new System.Drawing.Size(434, 309);
@@ -214,6 +216,20 @@
             this.btnCadastraAluno.UseVisualStyleBackColor = false;
             this.btnCadastraAluno.Click += new System.EventHandler(this.btnCadastraAluno_Click);
             // 
+            // btnConsultar
+            // 
+            this.btnConsultar.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnConsultar.FlatAppearance.BorderSize = 0;
+            this.btnConsultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConsultar.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
+            this.btnConsultar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
+            this.btnConsultar.Location = new System.Drawing.Point(194, 3);
+            this.btnConsultar.Name = "btnConsultar";
+            this.btnConsultar.Size = new System.Drawing.Size(185, 131);
+            this.btnConsultar.TabIndex = 6;
+            this.btnConsultar.Text = "Consultar";
+            this.btnConsultar.UseVisualStyleBackColor = false;
+            // 
             // frmPaginaInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -227,13 +243,13 @@
             this.Text = "frmPaginaInicial";
             this.Load += new System.EventHandler(this.frmPaginaInicial_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
+            this.pMoverTel.ResumeLayout(false);
+            this.pMoverTel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
-            this.pMoverTel.ResumeLayout(false);
-            this.pMoverTel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.flpAlunoLayout.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -255,5 +271,6 @@
         private System.Windows.Forms.Button btnCompeticoes;
         private System.Windows.Forms.FlowLayoutPanel flpAlunoLayout;
         private System.Windows.Forms.Button btnCadastraAluno;
+        private System.Windows.Forms.Button btnConsultar;
     }
 }

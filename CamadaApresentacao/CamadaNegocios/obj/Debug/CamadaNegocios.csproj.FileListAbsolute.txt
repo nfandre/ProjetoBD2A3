@@ -70,3 +70,17 @@ C:\Users\afreitas\Desktop\app\CamadaApresentacao\CamadaNegocios\obj\Debug\Camada
 C:\Users\afreitas\Desktop\app\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.csproj.CopyComplete
 C:\Users\afreitas\Desktop\app\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.dll
 C:\Users\afreitas\Desktop\app\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.pdb
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaNegocios.dll
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaNegocios.pdb
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaDados.dll
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaNegocios\bin\Debug\ObjetoTransferencia.dll
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaNegocios\bin\Debug\MySql.Data.dll
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaDados.pdb
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaNegocios\bin\Debug\CamadaDados.dll.config
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaNegocios\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaNegocios\bin\Debug\MySql.Data.xml
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.csprojAssemblyReference.cache
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.csproj.CopyComplete
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.dll
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\CamadaNegocios\obj\Debug\CamadaNegocios.pdb

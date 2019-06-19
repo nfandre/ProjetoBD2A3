@@ -23,7 +23,10 @@ namespace CamadaNegocios
                 acessoBancoDados.adicionarParamentros("@nome", aluno.nome);
                 acessoBancoDados.adicionarParamentros("@cpf", aluno.rg);
                 acessoBancoDados.adicionarParamentros("@endereco", aluno.endereco);
+                acessoBancoDados.adicionarParamentros("@numero", aluno.numero);
+                acessoBancoDados.adicionarParamentros("@apto", aluno.apto);
                 acessoBancoDados.adicionarParamentros("@email", aluno.email);
+                acessoBancoDados.adicionarParamentros("@cep", aluno.cep);
                 acessoBancoDados.adicionarParamentros("@telefone", aluno.telefone);
                 acessoBancoDados.adicionarParamentros("@celular", aluno.celular);
                 acessoBancoDados.adicionarParamentros("@dataNascimento", aluno.dataNascimento);

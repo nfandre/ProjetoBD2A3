@@ -34,7 +34,7 @@
             this.lblNome = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.lblDtaNascimento = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtDataNascimento = new System.Windows.Forms.TextBox();
             this.lblRG = new System.Windows.Forms.Label();
             this.txtRG = new System.Windows.Forms.TextBox();
             this.lbCpf = new System.Windows.Forms.Label();
@@ -52,41 +52,29 @@
             this.lblProfissao = new System.Windows.Forms.Label();
             this.txtProfissao = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtCelular = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnProximo = new System.Windows.Forms.Button();
+            this.btnFinalizar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.flowLayoutPanel12 = new System.Windows.Forms.FlowLayoutPanel();
-            this.pMoverTel = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnAluno = new System.Windows.Forms.Button();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.btnTimes = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.btnJogos = new System.Windows.Forms.Button();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.btnCompeticoes = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pDadosPessoais = new System.Windows.Forms.Panel();
             this.btnDadosPessoais = new System.Windows.Forms.Button();
             this.btnDadosResponsaveis = new System.Windows.Forms.Button();
+            this.pMoverTel = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.flowLayoutPanel12.SuspendLayout();
-            this.pMoverTel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
             this.pDadosPessoais.SuspendLayout();
+            this.pMoverTel.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblCategoria
@@ -153,13 +141,13 @@
             this.lblDtaNascimento.Text = "Data Nasc.:";
             this.lblDtaNascimento.Click += new System.EventHandler(this.LblDtaNascimento_Click);
             // 
-            // textBox1
+            // txtDataNascimento
             // 
-            this.textBox1.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(168, 108);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(185, 30);
-            this.textBox1.TabIndex = 8;
+            this.txtDataNascimento.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDataNascimento.Location = new System.Drawing.Point(168, 108);
+            this.txtDataNascimento.Name = "txtDataNascimento";
+            this.txtDataNascimento.Size = new System.Drawing.Size(185, 30);
+            this.txtDataNascimento.TabIndex = 8;
             // 
             // lblRG
             // 
@@ -324,13 +312,13 @@
             this.label7.TabIndex = 7;
             this.label7.Text = "Email:";
             // 
-            // textBox5
+            // txtEmail
             // 
-            this.textBox5.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(168, 256);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(293, 30);
-            this.textBox5.TabIndex = 8;
+            this.txtEmail.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Location = new System.Drawing.Point(168, 256);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(293, 30);
+            this.txtEmail.TabIndex = 8;
             // 
             // label8
             // 
@@ -343,13 +331,13 @@
             this.label8.TabIndex = 9;
             this.label8.Text = "Fone:";
             // 
-            // textBox6
+            // txtTelefone
             // 
-            this.textBox6.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(558, 208);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(205, 30);
-            this.textBox6.TabIndex = 10;
+            this.txtTelefone.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefone.Location = new System.Drawing.Point(558, 208);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(205, 30);
+            this.txtTelefone.TabIndex = 10;
             // 
             // label9
             // 
@@ -362,13 +350,13 @@
             this.label9.TabIndex = 0;
             this.label9.Text = "Cel:";
             // 
-            // textBox7
+            // txtCelular
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(558, 259);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(205, 29);
-            this.textBox7.TabIndex = 1;
+            this.txtCelular.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCelular.Location = new System.Drawing.Point(558, 259);
+            this.txtCelular.Name = "txtCelular";
+            this.txtCelular.Size = new System.Drawing.Size(205, 29);
+            this.txtCelular.TabIndex = 1;
             // 
             // pictureBox1
             // 
@@ -401,20 +389,20 @@
             this.panel1.Size = new System.Drawing.Size(1029, 18);
             this.panel1.TabIndex = 12;
             // 
-            // btnProximo
+            // btnFinalizar
             // 
-            this.btnProximo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(87)))), ((int)(((byte)(54)))));
-            this.btnProximo.FlatAppearance.BorderSize = 0;
-            this.btnProximo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProximo.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProximo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.btnProximo.Location = new System.Drawing.Point(1039, 560);
-            this.btnProximo.Name = "btnProximo";
-            this.btnProximo.Size = new System.Drawing.Size(113, 36);
-            this.btnProximo.TabIndex = 13;
-            this.btnProximo.Text = "Próximo";
-            this.btnProximo.UseVisualStyleBackColor = false;
-            this.btnProximo.Click += new System.EventHandler(this.btnProximo_Click);
+            this.btnFinalizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(87)))), ((int)(((byte)(54)))));
+            this.btnFinalizar.FlatAppearance.BorderSize = 0;
+            this.btnFinalizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFinalizar.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinalizar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
+            this.btnFinalizar.Location = new System.Drawing.Point(1039, 560);
+            this.btnFinalizar.Name = "btnFinalizar";
+            this.btnFinalizar.Size = new System.Drawing.Size(113, 36);
+            this.btnFinalizar.TabIndex = 13;
+            this.btnFinalizar.Text = "Finalizar";
+            this.btnFinalizar.UseVisualStyleBackColor = false;
+            this.btnFinalizar.Click += new System.EventHandler(this.BtnFinalizar_Click);
             // 
             // btnCancelar
             // 
@@ -431,142 +419,15 @@
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // flowLayoutPanel12
-            // 
-            this.flowLayoutPanel12.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.flowLayoutPanel12.Controls.Add(this.pMoverTel);
-            this.flowLayoutPanel12.Controls.Add(this.panel2);
-            this.flowLayoutPanel12.Controls.Add(this.panel6);
-            this.flowLayoutPanel12.Controls.Add(this.panel7);
-            this.flowLayoutPanel12.Controls.Add(this.panel8);
-            this.flowLayoutPanel12.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel12.Location = new System.Drawing.Point(-1, -3);
-            this.flowLayoutPanel12.Name = "flowLayoutPanel12";
-            this.flowLayoutPanel12.Size = new System.Drawing.Size(253, 643);
-            this.flowLayoutPanel12.TabIndex = 15;
-            // 
-            // pMoverTel
-            // 
-            this.pMoverTel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(87)))), ((int)(((byte)(54)))));
-            this.pMoverTel.Controls.Add(this.pictureBox2);
-            this.pMoverTel.Controls.Add(this.label1);
-            this.pMoverTel.Location = new System.Drawing.Point(3, 3);
-            this.pMoverTel.Name = "pMoverTel";
-            this.pMoverTel.Size = new System.Drawing.Size(250, 64);
-            this.pMoverTel.TabIndex = 2;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(192, 17);
+            this.pictureBox2.Location = new System.Drawing.Point(17, 217);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(35, 33);
+            this.pictureBox2.Size = new System.Drawing.Size(250, 319);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.label1.Location = new System.Drawing.Point(38, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 37);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ProjetoBD";
-            // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.btnAluno);
-            this.panel2.Location = new System.Drawing.Point(3, 73);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(248, 64);
-            this.panel2.TabIndex = 4;
-            // 
-            // btnAluno
-            // 
-            this.btnAluno.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnAluno.FlatAppearance.BorderSize = 0;
-            this.btnAluno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAluno.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
-            this.btnAluno.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.btnAluno.Location = new System.Drawing.Point(-1, -1);
-            this.btnAluno.Name = "btnAluno";
-            this.btnAluno.Size = new System.Drawing.Size(250, 64);
-            this.btnAluno.TabIndex = 4;
-            this.btnAluno.Text = "Aluno";
-            this.btnAluno.UseVisualStyleBackColor = false;
-            // 
-            // panel6
-            // 
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.btnTimes);
-            this.panel6.Location = new System.Drawing.Point(3, 143);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(248, 64);
-            this.panel6.TabIndex = 5;
-            // 
-            // btnTimes
-            // 
-            this.btnTimes.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnTimes.FlatAppearance.BorderSize = 0;
-            this.btnTimes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTimes.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
-            this.btnTimes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.btnTimes.Location = new System.Drawing.Point(-1, -1);
-            this.btnTimes.Name = "btnTimes";
-            this.btnTimes.Size = new System.Drawing.Size(250, 64);
-            this.btnTimes.TabIndex = 4;
-            this.btnTimes.Text = "Times";
-            this.btnTimes.UseVisualStyleBackColor = false;
-            // 
-            // panel7
-            // 
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.btnJogos);
-            this.panel7.Location = new System.Drawing.Point(3, 213);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(248, 64);
-            this.panel7.TabIndex = 6;
-            // 
-            // btnJogos
-            // 
-            this.btnJogos.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnJogos.FlatAppearance.BorderSize = 0;
-            this.btnJogos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnJogos.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
-            this.btnJogos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.btnJogos.Location = new System.Drawing.Point(-1, -1);
-            this.btnJogos.Name = "btnJogos";
-            this.btnJogos.Size = new System.Drawing.Size(250, 64);
-            this.btnJogos.TabIndex = 4;
-            this.btnJogos.Text = "Jogos";
-            this.btnJogos.UseVisualStyleBackColor = false;
-            // 
-            // panel8
-            // 
-            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel8.Controls.Add(this.btnCompeticoes);
-            this.panel8.Location = new System.Drawing.Point(3, 283);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(248, 64);
-            this.panel8.TabIndex = 7;
-            // 
-            // btnCompeticoes
-            // 
-            this.btnCompeticoes.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnCompeticoes.FlatAppearance.BorderSize = 0;
-            this.btnCompeticoes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCompeticoes.Font = new System.Drawing.Font("Trebuchet MS", 21.75F);
-            this.btnCompeticoes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.btnCompeticoes.Location = new System.Drawing.Point(-1, -1);
-            this.btnCompeticoes.Name = "btnCompeticoes";
-            this.btnCompeticoes.Size = new System.Drawing.Size(250, 64);
-            this.btnCompeticoes.TabIndex = 4;
-            this.btnCompeticoes.Text = "Competições";
-            this.btnCompeticoes.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -579,11 +440,11 @@
             // 
             // pDadosPessoais
             // 
-            this.pDadosPessoais.Controls.Add(this.textBox7);
+            this.pDadosPessoais.Controls.Add(this.txtCelular);
             this.pDadosPessoais.Controls.Add(this.label9);
-            this.pDadosPessoais.Controls.Add(this.textBox6);
+            this.pDadosPessoais.Controls.Add(this.txtTelefone);
             this.pDadosPessoais.Controls.Add(this.label8);
-            this.pDadosPessoais.Controls.Add(this.textBox5);
+            this.pDadosPessoais.Controls.Add(this.txtEmail);
             this.pDadosPessoais.Controls.Add(this.label7);
             this.pDadosPessoais.Controls.Add(this.txtProfissao);
             this.pDadosPessoais.Controls.Add(this.lblProfissao);
@@ -601,7 +462,7 @@
             this.pDadosPessoais.Controls.Add(this.lbCpf);
             this.pDadosPessoais.Controls.Add(this.txtRG);
             this.pDadosPessoais.Controls.Add(this.lblRG);
-            this.pDadosPessoais.Controls.Add(this.textBox1);
+            this.pDadosPessoais.Controls.Add(this.txtDataNascimento);
             this.pDadosPessoais.Controls.Add(this.lblDtaNascimento);
             this.pDadosPessoais.Controls.Add(this.txtNome);
             this.pDadosPessoais.Controls.Add(this.lblNome);
@@ -642,19 +503,49 @@
             this.btnDadosResponsaveis.UseVisualStyleBackColor = false;
             this.btnDadosResponsaveis.Click += new System.EventHandler(this.BtnDadosResponsaveis_Click);
             // 
+            // pMoverTel
+            // 
+            this.pMoverTel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(87)))), ((int)(((byte)(54)))));
+            this.pMoverTel.Controls.Add(this.label1);
+            this.pMoverTel.Location = new System.Drawing.Point(5, 64);
+            this.pMoverTel.Name = "pMoverTel";
+            this.pMoverTel.Size = new System.Drawing.Size(269, 64);
+            this.pMoverTel.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
+            this.label1.Location = new System.Drawing.Point(38, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(148, 37);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "ProjetoBD";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel2.Controls.Add(this.pMoverTel);
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Location = new System.Drawing.Point(-5, -2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(270, 645);
+            this.panel2.TabIndex = 19;
+            // 
             // frmCadastrarAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1271, 637);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnDadosResponsaveis);
             this.Controls.Add(this.btnDadosPessoais);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.flowLayoutPanel12);
             this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnProximo);
+            this.Controls.Add(this.btnFinalizar);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pDadosPessoais);
@@ -665,16 +556,12 @@
             this.Text = "frmCadastrarAluno";
             this.Load += new System.EventHandler(this.frmCadastrarAluno_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.flowLayoutPanel12.ResumeLayout(false);
-            this.pMoverTel.ResumeLayout(false);
-            this.pMoverTel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
             this.pDadosPessoais.ResumeLayout(false);
             this.pDadosPessoais.PerformLayout();
+            this.pMoverTel.ResumeLayout(false);
+            this.pMoverTel.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -686,7 +573,7 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label lblDtaNascimento;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtDataNascimento;
         private System.Windows.Forms.Label lblRG;
         private System.Windows.Forms.TextBox txtRG;
         private System.Windows.Forms.Label lbCpf;
@@ -704,31 +591,23 @@
         private System.Windows.Forms.Label lblProfissao;
         private System.Windows.Forms.TextBox txtProfissao;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtCelular;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnProximo;
+        private System.Windows.Forms.Button btnFinalizar;
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel12;
-        private System.Windows.Forms.Panel pMoverTel;
         private System.Windows.Forms.PictureBox pictureBox2;
-        public System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btnAluno;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Button btnTimes;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Button btnJogos;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Button btnCompeticoes;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel pDadosPessoais;
         private System.Windows.Forms.Button btnDadosPessoais;
         private System.Windows.Forms.Button btnDadosResponsaveis;
+        private System.Windows.Forms.Panel pMoverTel;
+        public System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
