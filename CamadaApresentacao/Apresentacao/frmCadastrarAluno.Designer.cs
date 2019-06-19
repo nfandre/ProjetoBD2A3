@@ -57,7 +57,7 @@
             this.txtTelefone = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txtCelular = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbFoto = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnFinalizar = new System.Windows.Forms.Button();
@@ -70,11 +70,35 @@
             this.pMoverTel = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pDadosResponsaveis = new System.Windows.Forms.Panel();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.txtResponsavel = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFoto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pDadosPessoais.SuspendLayout();
             this.pMoverTel.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.pDadosResponsaveis.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblCategoria
@@ -358,16 +382,16 @@
             this.txtCelular.Size = new System.Drawing.Size(205, 29);
             this.txtCelular.TabIndex = 1;
             // 
-            // pictureBox1
+            // pbFoto
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(1099, 97);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(130, 151);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pbFoto.BackColor = System.Drawing.Color.White;
+            this.pbFoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pbFoto.Location = new System.Drawing.Point(1099, 97);
+            this.pbFoto.Name = "pbFoto";
+            this.pbFoto.Size = new System.Drawing.Size(130, 151);
+            this.pbFoto.TabIndex = 0;
+            this.pbFoto.TabStop = false;
+            this.pbFoto.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label3
             // 
@@ -468,7 +492,7 @@
             this.pDadosPessoais.Controls.Add(this.lblNome);
             this.pDadosPessoais.Controls.Add(this.comboBox1);
             this.pDadosPessoais.Controls.Add(this.lblCategoria);
-            this.pDadosPessoais.Location = new System.Drawing.Point(272, 254);
+            this.pDadosPessoais.Location = new System.Drawing.Point(285, 254);
             this.pDadosPessoais.Name = "pDadosPessoais";
             this.pDadosPessoais.Size = new System.Drawing.Size(957, 342);
             this.pDadosPessoais.TabIndex = 16;
@@ -533,16 +557,256 @@
             this.panel2.Size = new System.Drawing.Size(270, 645);
             this.panel2.TabIndex = 19;
             // 
+            // pDadosResponsaveis
+            // 
+            this.pDadosResponsaveis.Controls.Add(this.textBox24);
+            this.pDadosResponsaveis.Controls.Add(this.textBox38);
+            this.pDadosResponsaveis.Controls.Add(this.label41);
+            this.pDadosResponsaveis.Controls.Add(this.textBox37);
+            this.pDadosResponsaveis.Controls.Add(this.label39);
+            this.pDadosResponsaveis.Controls.Add(this.label40);
+            this.pDadosResponsaveis.Controls.Add(this.textBox30);
+            this.pDadosResponsaveis.Controls.Add(this.label33);
+            this.pDadosResponsaveis.Controls.Add(this.label27);
+            this.pDadosResponsaveis.Controls.Add(this.textBox26);
+            this.pDadosResponsaveis.Controls.Add(this.label29);
+            this.pDadosResponsaveis.Controls.Add(this.textBox25);
+            this.pDadosResponsaveis.Controls.Add(this.label28);
+            this.pDadosResponsaveis.Controls.Add(this.textBox36);
+            this.pDadosResponsaveis.Controls.Add(this.textBox17);
+            this.pDadosResponsaveis.Controls.Add(this.textBox15);
+            this.pDadosResponsaveis.Controls.Add(this.label21);
+            this.pDadosResponsaveis.Controls.Add(this.textBox14);
+            this.pDadosResponsaveis.Controls.Add(this.textBox23);
+            this.pDadosResponsaveis.Controls.Add(this.label26);
+            this.pDadosResponsaveis.Controls.Add(this.txtResponsavel);
+            this.pDadosResponsaveis.Controls.Add(this.label22);
+            this.pDadosResponsaveis.Location = new System.Drawing.Point(283, 254);
+            this.pDadosResponsaveis.Name = "pDadosResponsaveis";
+            this.pDadosResponsaveis.Size = new System.Drawing.Size(964, 256);
+            this.pDadosResponsaveis.TabIndex = 20;
+            this.pDadosResponsaveis.Visible = false;
+            // 
+            // textBox24
+            // 
+            this.textBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox24.Location = new System.Drawing.Point(206, 198);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(280, 29);
+            this.textBox24.TabIndex = 8;
+            // 
+            // textBox38
+            // 
+            this.textBox38.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox38.Location = new System.Drawing.Point(599, 198);
+            this.textBox38.Name = "textBox38";
+            this.textBox38.Size = new System.Drawing.Size(183, 29);
+            this.textBox38.TabIndex = 1;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.BackColor = System.Drawing.Color.Transparent;
+            this.label41.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.Location = new System.Drawing.Point(526, 201);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(44, 24);
+            this.label41.TabIndex = 0;
+            this.label41.Text = "Cel:";
+            // 
+            // textBox37
+            // 
+            this.textBox37.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox37.Location = new System.Drawing.Point(599, 154);
+            this.textBox37.Name = "textBox37";
+            this.textBox37.Size = new System.Drawing.Size(183, 29);
+            this.textBox37.TabIndex = 10;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.BackColor = System.Drawing.Color.Transparent;
+            this.label39.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(6, 201);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(64, 24);
+            this.label39.TabIndex = 7;
+            this.label39.Text = "Email:";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.BackColor = System.Drawing.Color.Transparent;
+            this.label40.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(526, 157);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(57, 24);
+            this.label40.TabIndex = 9;
+            this.label40.Text = "Fone:";
+            // 
+            // textBox30
+            // 
+            this.textBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox30.Location = new System.Drawing.Point(206, 154);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(191, 29);
+            this.textBox30.TabIndex = 8;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.BackColor = System.Drawing.Color.Transparent;
+            this.label33.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(6, 154);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(49, 24);
+            this.label33.TabIndex = 7;
+            this.label33.Text = "CEP:";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.Transparent;
+            this.label27.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(6, 113);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(94, 24);
+            this.label27.TabIndex = 7;
+            this.label27.Text = "Endereço:";
+            // 
+            // textBox26
+            // 
+            this.textBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox26.Location = new System.Drawing.Point(872, 110);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(92, 29);
+            this.textBox26.TabIndex = 1;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(809, 113);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(57, 24);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "Apto:";
+            // 
+            // textBox25
+            // 
+            this.textBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox25.Location = new System.Drawing.Point(717, 110);
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(65, 29);
+            this.textBox25.TabIndex = 10;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.Transparent;
+            this.label28.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(669, 113);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(36, 24);
+            this.label28.TabIndex = 9;
+            this.label28.Text = "Nº:";
+            // 
+            // textBox36
+            // 
+            this.textBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox36.Location = new System.Drawing.Point(206, 110);
+            this.textBox36.Name = "textBox36";
+            this.textBox36.Size = new System.Drawing.Size(444, 29);
+            this.textBox36.TabIndex = 8;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox17.Location = new System.Drawing.Point(464, 65);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(187, 29);
+            this.textBox17.TabIndex = 1;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox15.Location = new System.Drawing.Point(206, 65);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(161, 29);
+            this.textBox15.TabIndex = 8;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(6, 68);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(109, 24);
+            this.label21.TabIndex = 7;
+            this.label21.Text = "Data Nasc.:";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox14.Location = new System.Drawing.Point(206, 20);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(393, 29);
+            this.textBox14.TabIndex = 1;
+            // 
+            // textBox23
+            // 
+            this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox23.Location = new System.Drawing.Point(763, 66);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(201, 29);
+            this.textBox23.TabIndex = 1;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.Transparent;
+            this.label26.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(688, 66);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(56, 27);
+            this.label26.TabIndex = 0;
+            this.label26.Text = "CPF:";
+            // 
+            // txtResponsavel
+            // 
+            this.txtResponsavel.AutoSize = true;
+            this.txtResponsavel.BackColor = System.Drawing.Color.Transparent;
+            this.txtResponsavel.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtResponsavel.Location = new System.Drawing.Point(6, 20);
+            this.txtResponsavel.Name = "txtResponsavel";
+            this.txtResponsavel.Size = new System.Drawing.Size(197, 24);
+            this.txtResponsavel.TabIndex = 0;
+            this.txtResponsavel.Text = "Nome do responsável:";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(417, 68);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(41, 24);
+            this.label22.TabIndex = 9;
+            this.label22.Text = "RG:";
+            // 
             // frmCadastrarAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1271, 637);
+            this.Controls.Add(this.pDadosResponsaveis);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnDadosResponsaveis);
             this.Controls.Add(this.btnDadosPessoais);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbFoto);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnFinalizar);
@@ -555,13 +819,15 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCadastrarAluno";
             this.Load += new System.EventHandler(this.frmCadastrarAluno_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFoto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pDadosPessoais.ResumeLayout(false);
             this.pDadosPessoais.PerformLayout();
             this.pMoverTel.ResumeLayout(false);
             this.pMoverTel.PerformLayout();
             this.panel2.ResumeLayout(false);
+            this.pDadosResponsaveis.ResumeLayout(false);
+            this.pDadosResponsaveis.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -596,7 +862,7 @@
         private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtCelular;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbFoto;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnFinalizar;
@@ -609,5 +875,28 @@
         private System.Windows.Forms.Panel pMoverTel;
         public System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pDadosResponsaveis;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox textBox38;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.TextBox textBox37;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label txtResponsavel;
+        private System.Windows.Forms.Label label22;
     }
 }

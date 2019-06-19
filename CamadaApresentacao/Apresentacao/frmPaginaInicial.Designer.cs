@@ -229,6 +229,7 @@
             this.btnConsultar.TabIndex = 6;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = false;
+            this.btnConsultar.Click += new System.EventHandler(this.BtnConsultar_Click);
             // 
             // frmPaginaInicial
             // 

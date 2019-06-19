@@ -200,7 +200,6 @@ C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug
 C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\AxInterop.AcroPDFLib.dll
 C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.csproj.ResolveComReference.cache
 C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmCadastrarAluno.resources
-C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmCadastrarResponsaveis.resources
 C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmInicializarPrograma.resources
 C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmLoginAcesso.resources
 C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmPaginaInicial.resources
@@ -210,3 +209,4 @@ C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug
 C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.csproj.CopyComplete
 C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.exe
 C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmConsultarAlunos.resources

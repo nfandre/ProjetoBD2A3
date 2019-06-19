@@ -62,6 +62,7 @@ namespace Apresentacao
         {
             btnDadosResponsaveis.BackColor = Color.DarkGray;
             btnDadosPessoais.BackColor = Color.FromArgb(229, 87, 54);
+            pDadosResponsaveis.Visible = true;
             pDadosPessoais.Visible = false;
         }
 
@@ -70,6 +71,7 @@ namespace Apresentacao
             btnDadosPessoais.BackColor = Color.DarkGray;
             btnDadosResponsaveis.BackColor = Color.FromArgb(229, 87, 54);
             pDadosPessoais.Visible = true;
+            pDadosResponsaveis.Visible = false;
         }
 
         private void BtnFinalizar_Click(object sender, EventArgs e)
@@ -91,9 +93,9 @@ namespace Apresentacao
 
             AlunoNegocios alunoNegocios = new AlunoNegocios();
 
-
+            
             alunoNegocios.inserirAluno(a);
-
+            this.Hide();
 
         }
     }

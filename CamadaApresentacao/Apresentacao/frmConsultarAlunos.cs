@@ -10,24 +10,22 @@ using System.Windows.Forms;
 
 namespace Apresentacao
 {
-    public partial class frmCadastrarResponsaveis : Form
+    public partial class frmConsultarAlunos : Form
     {
-        FormularioMover fm = new FormularioMover();
-        public frmCadastrarResponsaveis()
+        public frmConsultarAlunos()
         {
             InitializeComponent();
         }
 
-        private void frmCadastrarResponsaveis_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnVoltar_Click(object sender, EventArgs e)
+        private void BtnVoltar_Click(object sender, EventArgs e)
         {
             this.Hide();
         }
 
-
+        private void BtnAlterar_Click(object sender, EventArgs e)
+        {
+            frmCadastrarAluno cadastraAluno = new frmCadastrarAluno();
+            cadastraAluno.ShowDialog();
+        }
     }
 }

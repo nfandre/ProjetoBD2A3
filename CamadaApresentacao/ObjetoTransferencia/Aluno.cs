@@ -15,11 +15,12 @@ namespace ObjetoTransferencia
         public string endereco { get; set; }
         public string numero { get; set; }
         public string apto { get; set; }
-        public string email { get; set; }
         public string cep { get; set; }
+        public string email { get; set; }
         public string telefone { get; set; }
         public string celular { get; set; }
         public DateTime dataNascimento { get; set; }
+        public int idCategoria { get; set; }
 
     }
 }

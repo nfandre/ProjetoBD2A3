@@ -75,11 +75,11 @@
     <Compile Include="frmCadastrarAluno.Designer.cs">
       <DependentUpon>frmCadastrarAluno.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCadastrarResponsaveis.cs">
+    <Compile Include="frmConsultarAlunos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCadastrarResponsaveis.Designer.cs">
-      <DependentUpon>frmCadastrarResponsaveis.cs</DependentUpon>
+    <Compile Include="frmConsultarAlunos.Designer.cs">
+      <DependentUpon>frmConsultarAlunos.cs</DependentUpon>
     </Compile>
     <Compile Include="frmInicializarPrograma.cs">
       <SubType>Form</SubType>
@@ -108,8 +108,8 @@
     <EmbeddedResource Include="frmCadastrarAluno.resx">
       <DependentUpon>frmCadastrarAluno.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCadastrarResponsaveis.resx">
-      <DependentUpon>frmCadastrarResponsaveis.cs</DependentUpon>
+    <EmbeddedResource Include="frmConsultarAlunos.resx">
+      <DependentUpon>frmConsultarAlunos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInicializarPrograma.resx">
       <DependentUpon>frmInicializarPrograma.cs</DependentUpon>

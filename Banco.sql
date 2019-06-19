@@ -5,17 +5,20 @@ use projetoBD
 /* Lógico : */
 
 CREATE TABLE Aluno (
-    idAluno INTEGER PRIMARY KEY,
+    idAluno INTEGER PRIMARY KEY IDENTITY,
     nome CHARACTER,
     cpf CHARACTER,
     rg CHARACTER,
     endereco CHARACTER,
+	numero CHARACTER,
+	apto CHARACTER,
+	cep CHARACTER,
     email CHARACTER,
     telefone CHARACTER,
-	celular character,
+	celular CHARACTER,
     dataNascimenoto DATE,
-    fk_Categoria_idCategoria INTEGER,
-    fk_Time_idTime INTEGER
+   -- fk_Categoria_idCategoria INTEGER,
+  --  fk_Time_idTime INTEGER
 );
 
 CREATE TABLE Categoria (
@@ -125,17 +128,23 @@ ALTER TABLE esta ADD CONSTRAINT FK_esta_2
 
 
 create proc uspInserirAluno
-@IdAluno int,
     @nome CHARACTER,
     @cpf CHARACTER,
     @rg CHARACTER,
     @endereco CHARACTER,
+	@numero CHARACTER,
+	@apto CHARACTER,
+	@cep CHARACTER,
     @email CHARACTER,
     @telefone CHARACTER,
-	@celular character,
+	@celular CHARACTER,
     @dataNascimenoto DATE
+   -- fk_Categoria_idCategoria INTEGER,
+  --  fk_Time_idTime INTEGER
 as
 begin
-insert into Aluno
-values(@IdAluno,@nome,@cpf,@rg,@endereco,@email,@telefone,@celular,@dataNascimenoto)	
+	insert into Aluno
+	values(@nome,@cpf,@rg,@endereco,@numero,@apto,@cep,@email,@telefone,@celular,@dataNascimenoto)	
 end
+
+exec uspInserirAluno

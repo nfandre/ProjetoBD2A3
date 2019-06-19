@@ -57,6 +57,10 @@ namespace Apresentacao
             frmcadastrarAluno.ShowDialog();
         }
 
-  
+        private void BtnConsultar_Click(object sender, EventArgs e)
+        {
+            frmConsultarAlunos consultarAlunos = new frmConsultarAlunos();
+            consultarAlunos.ShowDialog();
+        }
     }
 }
