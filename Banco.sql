@@ -339,8 +339,90 @@ BEGIN
 	END CATCH
 END
 
+CREATE PROC uspTimeInserir
+	@idTime INTEGER ,
+    @nome varchar(30),
+    @fk_Professor_idProfessor VARCHAR(30)
+AS
+BEGIN
+	BEGIN TRY
+		BEGIN TRAN
+			insert into dbo.Time values
+			(@idTime,@nome,@fk_Professor_idProfessor)
+
+			select @idTime as retorno
+		COMMIT TRAN
+	END TRY
+	BEGIN CATCH
+		ROLLBACK TRAN
+	SELECT ERROR_MESSAGE() AS Retorno
+
+	END CATCH
+END
+fk_Professor_idProfessor
+CREATE PROC uspTimeConsultar
+AS
+BEGIN
+	BEGIN TRY
+		BEGIN TRAN
+			select * from Time
+		COMMIT TRAN
+	END TRY
+	BEGIN CATCH
+		ROLLBACK TRAN
+	SELECT ERROR_MESSAGE() AS Retorno
+
+	END CATCH
+END
+
+CREATE PROC uspTimeAlterar
+	@idTime INTEGER ,
+    @nome varchar(30),
+    @fk_Professor_idProfessor VARCHAR(30)
+AS
+BEGIN
+	BEGIN TRY
+		BEGIN TRAN
+			update Time 
+			set
+				nome = @nome,
+				fk_Professor_idProfessor = @fk_Professor_idProfessor
+			where
+				idTime = @idTime
+
+			select @idTime as retorno
+		COMMIT TRAN
+	END TRY
+	BEGIN CATCH
+		ROLLBACK TRAN
+	SELECT ERROR_MESSAGE() AS Retorno
+
+	END CATCH
+END
+
+CREATE PROC uspTimeExcluir
+
+@idTime Varchar(30)
+AS
+BEGIN
+	BEGIN TRY
+		BEGIN TRAN
+			DELETE FROM Time WHERE idTime = @idTime
+
+			select @idTime as retorno
+		COMMIT TRAN
+	END TRY
+	BEGIN CATCH
+		ROLLBACK TRAN
+	SELECT ERROR_MESSAGE() AS Retorno
+
+	END CATCH
+END
+
+
 
 select * from Professor
+
 
 create proc uspInserirAluno
     @nome varchar(30),
@@ -353,13 +435,46 @@ create proc uspInserirAluno
     @email varchar(30),
     @telefone varchar(30),
 	@celular varchar(30),
-    @dataNascimenoto DATETIME
-   -- fk_Categoria_idCategoria INTEGER,
-  --  fk_Time_idTime INTEGER
-as
-begin
-	insert into Aluno
-	values(@nome,@cpf,@rg,@endereco,@numero,@apto,@cep,@email,@telefone,@celular,@dataNascimenoto)	
-end
+    @dataNascimenoto DATETIME,
+    @fk_Categoria_idCategoria INTEGER,
+	@fk_Time_idTime INTEGER,
+	@cpfR INTEGER ,
+    @rgR INTEGER,
+    @nomeR varchar(30),
+    @dataNascimentoR DATETIME,
+    @enderecoR varchar(30),
+    @emailR varchar(30),
+    @telefoneR varchar(30),
+	@celularR varchar(30)
+AS
+BEGIN
+	BEGIN TRY
+		BEGIN TRAN
+			insert into Aluno
+			values(@nome,@cpf,@rg,@endereco,@numero,@apto,@cep,@email,@telefone,@celular,@dataNascimenoto,@fk_Categoria_idCategoria,@fk_Time_idTime)
+			declare @idAluno INT = @@IDENTITY
+			insert into Responsavel
+			values
+			(@cpfR ,
+				@rgR,
+				@nomeR ,
+				@dataNascimentoR ,
+				@enderecoR ,
+				@emailR ,
+				@telefoneR ,
+				@celularR 
+			)
+			select @idAluno as retorno
+		COMMIT TRAN
+	END TRY
+	BEGIN CATCH
+		ROLLBACK TRAN
+	SELECT ERROR_MESSAGE() AS Retorno
 
-select * from Categoria
+	END CATCH
+END
+
+
+select * from time
+
+select * from Professor

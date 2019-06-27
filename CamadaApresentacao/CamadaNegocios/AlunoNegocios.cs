@@ -13,7 +13,7 @@ namespace CamadaNegocios
     {
         AcessoBancoDados acessoBancoDados = new AcessoBancoDados();
 
-        public string inserirAluno(Aluno aluno)
+        public string inserirAluno(Aluno aluno, Responsavel responsavel)
         {
 
             try

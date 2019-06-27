@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace ObjetoTransferencia
 {
-    public class Time
+    public class TimeColecao : List<Time>
     {
-        public string IdTime { get; set; }
-        public string nome { get; set; }
-        public string professorResponsavel { get; set; }
     }
 }

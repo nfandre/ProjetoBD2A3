@@ -213,3 +213,5 @@ C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\A
 C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmCadastroAluno.resources
 C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmCadastroProfessor.resources
 C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmConsultarAlunoFuncionario.resources
+C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmTimeCadastro.resources
+C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmTimesCosultar.resources

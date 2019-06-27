@@ -73,6 +73,8 @@ namespace Apresentacao
         private void BtnTimes_Click(object sender, EventArgs e)
         {
             pAluno.Visible = false;
+            frmTimesCosultar tc = new frmTimesCosultar();
+            tc.ShowDialog();
         }
 
         private void BtnAluno_Click(object sender, EventArgs e)
