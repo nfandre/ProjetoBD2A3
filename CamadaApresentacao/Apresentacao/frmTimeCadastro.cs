@@ -59,11 +59,11 @@ namespace Apresentacao
                 if (escolhaSelecao == Escolha.Cadastrar)
                 {
                     resultado = tn.inserir(t);
-                    mensagem = "Time cadastrada!";
+                    mensagem = "Time cadastrado!";
                 }
 
                 Convert.ToInt32(resultado);
-                MessageBox.Show(mensagem + "ID " + resultado);
+                MessageBox.Show(mensagem + " ID: " + resultado);
                 this.Hide();
             }
             catch (Exception ex)

@@ -70,9 +70,10 @@ namespace Apresentacao
             {
                 frmCadastroProfessor cp = new frmCadastroProfessor(Escolha.Cadastrar, null);
                 cp.ShowDialog();
+                pesquisarTodosProfessores();
 
             }
-            pesquisarTodosProfessores();
+
         }
 
         private void btnPesquisar_Click(object sender, EventArgs e)
@@ -107,7 +108,7 @@ namespace Apresentacao
             }
             else
             {
-                Aluno alunoSelecionado = dgvListar.SelectedRows[0].DataBoundItem as Aluno;
+               // Aluno alunoSelecionado = dgvListar.SelectedRows[0].DataBoundItem as Aluno;
                 //ptbImagem.Image = mc.ConverterImagem(alunoSelecionado);
             }
         }

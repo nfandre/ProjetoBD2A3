@@ -111,7 +111,7 @@ namespace Apresentacao
                     mensagem = "Professor cadastrado";
                 }
                 Convert.ToInt32(resultado);
-                MessageBox.Show(mensagem + "idProduto " + resultado);
+                MessageBox.Show(mensagem + " idProfessor " + resultado);
                 this.Hide();
             }
             catch (Exception)

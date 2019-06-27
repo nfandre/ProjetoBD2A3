@@ -96,7 +96,7 @@ namespace Apresentacao
             AlunoNegocios alunoNegocios = new AlunoNegocios();
 
             
-            alunoNegocios.inserirAluno(a);
+           // alunoNegocios.inserirAluno(a);
             this.Hide();
 
         }
