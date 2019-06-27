@@ -41,10 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlunoNegocios.cs" />
-    <Compile Include="VendaNegocios.cs" />
-    <Compile Include="FuncionarioNegocios.cs" />
-    <Compile Include="GuardarVendaNegocios.cs" />
-    <Compile Include="ProdutoNegocios.cs" />
+    <Compile Include="CategoriaNegocios.cs" />
+    <Compile Include="ProfessorNegocios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

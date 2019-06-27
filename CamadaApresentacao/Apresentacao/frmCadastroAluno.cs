@@ -12,12 +12,14 @@ using System.Windows.Forms;
 
 namespace Apresentacao
 {
-    public partial class frmCadastrarAluno : Form
+    public partial class frmCadastroAluno : Form
     {
         FormularioMover fm = new FormularioMover();
-        public frmCadastrarAluno()
+
+        public frmCadastroAluno()
         {
             InitializeComponent();
+
         }
 
         private void frmCadastrarAluno_Load(object sender, EventArgs e)
@@ -97,6 +99,12 @@ namespace Apresentacao
             alunoNegocios.inserirAluno(a);
             this.Hide();
 
+        }
+
+        private void btnCadastrarCategoria_Click(object sender, EventArgs e)
+        {
+            frmCategoriaConsultar cc = new frmCategoriaConsultar();
+            cc.ShowDialog();
         }
     }
 }

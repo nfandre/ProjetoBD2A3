@@ -54,14 +54,6 @@ namespace Apresentacao
         {
             try
             {
-                FuncionarioNegocios funcionarioN = new FuncionarioNegocios();
-                FuncionarioColecao funcionarioC = funcionarioN.verificarFuncionario(txtLogin.Text.Trim(), txtSenha.Text.Trim());
-                result = funcionarioC[0].idFuncionario.ToString();                
-                if (result != null)
-                {
-                   
-
-                }
 
             }
             catch (Exception ex)

@@ -32,7 +32,7 @@ namespace CamadaNegocios
                 acessoBancoDados.adicionarParamentros("@dataNascimento", aluno.dataNascimento);
                 acessoBancoDados.adicionarParamentros("@idCategoria", aluno.idCategoria);
 
-                string idAluno = acessoBancoDados.executarManipulacao(System.Data.CommandType.StoredProcedure, "uspInserirAluno").ToString();
+                string idAluno = acessoBancoDados.executarManipulacao(System.Data.CommandType.StoredProcedure,"uspInserirAluno").ToString();
                 return idAluno;
             }
             catch (Exception ex)

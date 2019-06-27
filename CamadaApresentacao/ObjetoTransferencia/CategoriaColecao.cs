@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ObjetoTransferencia
 {
-    public class ProdutoColecao : List<Produto>
+    public  class CategoriaColecao : List<Categoria>
     {
     }
 }

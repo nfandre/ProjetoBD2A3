@@ -53,14 +53,21 @@ namespace Apresentacao
 
         private void btnCadastraAluno_Click(object sender, EventArgs e)
         {
-            frmCadastrarAluno frmcadastrarAluno = new frmCadastrarAluno();
+            frmConsultarAlunoFuncionario frmcadastrarAluno = null;
+            if (btnCadastraAluno.Text == "Cadastro de Alunos")
+            {
+                frmcadastrarAluno = new frmConsultarAlunoFuncionario(TipoListagem.Aluno);
+            }
+            else
+            {
+                 frmcadastrarAluno = new frmConsultarAlunoFuncionario(TipoListagem.Professor);
+            }
+
             frmcadastrarAluno.ShowDialog();
         }
 
         private void BtnConsultar_Click(object sender, EventArgs e)
         {
-            frmConsultarAlunos consultarAlunos = new frmConsultarAlunos();
-            consultarAlunos.ShowDialog();
         }
 
         private void BtnTimes_Click(object sender, EventArgs e)
@@ -71,11 +78,13 @@ namespace Apresentacao
         private void BtnAluno_Click(object sender, EventArgs e)
         {
             pAluno.Visible = true;
+            btnCadastraAluno.Text = "Cadastro de Alunos";
         }
 
         private void BtnProfessor_Click(object sender, EventArgs e)
         {
             pAluno.Visible = true;
+            btnCadastraAluno.Text = "Cadastro de Professores";
         }
     }
 }

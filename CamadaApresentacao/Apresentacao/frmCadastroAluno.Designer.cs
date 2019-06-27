@@ -1,6 +1,6 @@
 ﻿namespace Apresentacao
 {
-    partial class frmCadastrarAluno
+    partial class frmCadastroAluno
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastrarAluno));
             this.lblCategoria = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.lblNome = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.lblDtaNascimento = new System.Windows.Forms.Label();
@@ -62,14 +60,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnFinalizar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pDadosPessoais = new System.Windows.Forms.Panel();
+            this.btnCadastrarCategoria = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.btnDadosPessoais = new System.Windows.Forms.Button();
             this.btnDadosResponsaveis = new System.Windows.Forms.Button();
-            this.pMoverTel = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.pDadosResponsaveis = new System.Windows.Forms.Panel();
             this.textBox24 = new System.Windows.Forms.TextBox();
             this.textBox38 = new System.Windows.Forms.TextBox();
@@ -94,10 +90,7 @@
             this.txtResponsavel = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbFoto)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pDadosPessoais.SuspendLayout();
-            this.pMoverTel.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.pDadosResponsaveis.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -112,27 +105,6 @@
             this.lblCategoria.TabIndex = 2;
             this.lblCategoria.Text = "Categoria:";
             this.lblCategoria.Click += new System.EventHandler(this.LblCategoria_Click);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.DisplayMember = "Sub10";
-            this.comboBox1.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Sub-09",
-            "Sub-10",
-            "Sub-11",
-            "Sub-12",
-            "Sub-13",
-            "Sub-14",
-            "Sub-15",
-            "Sub-16",
-            "Sub-17",
-            "Sub-19"});
-            this.comboBox1.Location = new System.Drawing.Point(168, 9);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(185, 32);
-            this.comboBox1.TabIndex = 3;
             // 
             // lblNome
             // 
@@ -292,7 +264,7 @@
             this.lblEstadoCivil.AutoSize = true;
             this.lblEstadoCivil.BackColor = System.Drawing.Color.Transparent;
             this.lblEstadoCivil.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEstadoCivil.Location = new System.Drawing.Point(382, 12);
+            this.lblEstadoCivil.Location = new System.Drawing.Point(457, 12);
             this.lblEstadoCivil.Name = "lblEstadoCivil";
             this.lblEstadoCivil.Size = new System.Drawing.Size(116, 24);
             this.lblEstadoCivil.TabIndex = 9;
@@ -301,7 +273,7 @@
             // txtEstadoCivil
             // 
             this.txtEstadoCivil.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEstadoCivil.Location = new System.Drawing.Point(517, 9);
+            this.txtEstadoCivil.Location = new System.Drawing.Point(592, 9);
             this.txtEstadoCivil.Name = "txtEstadoCivil";
             this.txtEstadoCivil.Size = new System.Drawing.Size(183, 30);
             this.txtEstadoCivil.TabIndex = 10;
@@ -384,9 +356,9 @@
             // 
             // pbFoto
             // 
-            this.pbFoto.BackColor = System.Drawing.Color.White;
+            this.pbFoto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(87)))), ((int)(((byte)(54)))));
             this.pbFoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbFoto.Location = new System.Drawing.Point(1099, 97);
+            this.pbFoto.Location = new System.Drawing.Point(836, 97);
             this.pbFoto.Name = "pbFoto";
             this.pbFoto.Size = new System.Drawing.Size(130, 151);
             this.pbFoto.TabIndex = 0;
@@ -398,7 +370,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(275, 27);
+            this.label3.Location = new System.Drawing.Point(12, 27);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(131, 37);
             this.label3.TabIndex = 7;
@@ -408,7 +380,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel1.Location = new System.Drawing.Point(249, 625);
+            this.panel1.Location = new System.Drawing.Point(-14, 625);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1029, 18);
             this.panel1.TabIndex = 12;
@@ -420,7 +392,7 @@
             this.btnFinalizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFinalizar.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFinalizar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.btnFinalizar.Location = new System.Drawing.Point(1039, 560);
+            this.btnFinalizar.Location = new System.Drawing.Point(844, 306);
             this.btnFinalizar.Name = "btnFinalizar";
             this.btnFinalizar.Size = new System.Drawing.Size(113, 36);
             this.btnFinalizar.TabIndex = 13;
@@ -435,7 +407,7 @@
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.btnCancelar.Location = new System.Drawing.Point(285, 560);
+            this.btnCancelar.Location = new System.Drawing.Point(22, 560);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(113, 36);
             this.btnCancelar.TabIndex = 14;
@@ -443,20 +415,10 @@
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(17, 217);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(250, 319);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(87)))), ((int)(((byte)(54)))));
-            this.panel3.Location = new System.Drawing.Point(279, 67);
+            this.panel3.Location = new System.Drawing.Point(16, 67);
             this.panel3.Margin = new System.Windows.Forms.Padding(1);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(775, 3);
@@ -464,11 +426,13 @@
             // 
             // pDadosPessoais
             // 
+            this.pDadosPessoais.Controls.Add(this.btnCadastrarCategoria);
             this.pDadosPessoais.Controls.Add(this.txtCelular);
             this.pDadosPessoais.Controls.Add(this.label9);
             this.pDadosPessoais.Controls.Add(this.txtTelefone);
             this.pDadosPessoais.Controls.Add(this.label8);
             this.pDadosPessoais.Controls.Add(this.txtEmail);
+            this.pDadosPessoais.Controls.Add(this.btnFinalizar);
             this.pDadosPessoais.Controls.Add(this.label7);
             this.pDadosPessoais.Controls.Add(this.txtProfissao);
             this.pDadosPessoais.Controls.Add(this.lblProfissao);
@@ -492,10 +456,46 @@
             this.pDadosPessoais.Controls.Add(this.lblNome);
             this.pDadosPessoais.Controls.Add(this.comboBox1);
             this.pDadosPessoais.Controls.Add(this.lblCategoria);
-            this.pDadosPessoais.Location = new System.Drawing.Point(285, 254);
+            this.pDadosPessoais.Location = new System.Drawing.Point(22, 254);
             this.pDadosPessoais.Name = "pDadosPessoais";
             this.pDadosPessoais.Size = new System.Drawing.Size(957, 342);
             this.pDadosPessoais.TabIndex = 16;
+            // 
+            // btnCadastrarCategoria
+            // 
+            this.btnCadastrarCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(87)))), ((int)(((byte)(54)))));
+            this.btnCadastrarCategoria.FlatAppearance.BorderSize = 0;
+            this.btnCadastrarCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastrarCategoria.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrarCategoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
+            this.btnCadastrarCategoria.Location = new System.Drawing.Point(376, 7);
+            this.btnCadastrarCategoria.Name = "btnCadastrarCategoria";
+            this.btnCadastrarCategoria.Size = new System.Drawing.Size(47, 36);
+            this.btnCadastrarCategoria.TabIndex = 15;
+            this.btnCadastrarCategoria.Text = "...";
+            this.btnCadastrarCategoria.UseVisualStyleBackColor = false;
+            this.btnCadastrarCategoria.Click += new System.EventHandler(this.btnCadastrarCategoria_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DisplayMember = "Sub10";
+            this.comboBox1.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Sub-09",
+            "Sub-10",
+            "Sub-11",
+            "Sub-12",
+            "Sub-13",
+            "Sub-14",
+            "Sub-15",
+            "Sub-16",
+            "Sub-17",
+            "Sub-19"});
+            this.comboBox1.Location = new System.Drawing.Point(168, 9);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(185, 32);
+            this.comboBox1.TabIndex = 3;
             // 
             // btnDadosPessoais
             // 
@@ -504,7 +504,7 @@
             this.btnDadosPessoais.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDadosPessoais.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDadosPessoais.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.btnDadosPessoais.Location = new System.Drawing.Point(285, 157);
+            this.btnDadosPessoais.Location = new System.Drawing.Point(22, 157);
             this.btnDadosPessoais.Name = "btnDadosPessoais";
             this.btnDadosPessoais.Size = new System.Drawing.Size(218, 36);
             this.btnDadosPessoais.TabIndex = 17;
@@ -519,43 +519,13 @@
             this.btnDadosResponsaveis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDadosResponsaveis.Font = new System.Drawing.Font("Trebuchet MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDadosResponsaveis.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.btnDadosResponsaveis.Location = new System.Drawing.Point(515, 157);
+            this.btnDadosResponsaveis.Location = new System.Drawing.Point(252, 157);
             this.btnDadosResponsaveis.Name = "btnDadosResponsaveis";
             this.btnDadosResponsaveis.Size = new System.Drawing.Size(255, 36);
             this.btnDadosResponsaveis.TabIndex = 18;
             this.btnDadosResponsaveis.Text = "Dados dos responsáveis";
             this.btnDadosResponsaveis.UseVisualStyleBackColor = false;
             this.btnDadosResponsaveis.Click += new System.EventHandler(this.BtnDadosResponsaveis_Click);
-            // 
-            // pMoverTel
-            // 
-            this.pMoverTel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(87)))), ((int)(((byte)(54)))));
-            this.pMoverTel.Controls.Add(this.label1);
-            this.pMoverTel.Location = new System.Drawing.Point(5, 64);
-            this.pMoverTel.Name = "pMoverTel";
-            this.pMoverTel.Size = new System.Drawing.Size(269, 64);
-            this.pMoverTel.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(51)))), ((int)(((byte)(50)))));
-            this.label1.Location = new System.Drawing.Point(38, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 37);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ProjetoBD";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel2.Controls.Add(this.pMoverTel);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(-5, -2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(270, 645);
-            this.panel2.TabIndex = 19;
             // 
             // pDadosResponsaveis
             // 
@@ -581,7 +551,7 @@
             this.pDadosResponsaveis.Controls.Add(this.label26);
             this.pDadosResponsaveis.Controls.Add(this.txtResponsavel);
             this.pDadosResponsaveis.Controls.Add(this.label22);
-            this.pDadosResponsaveis.Location = new System.Drawing.Point(283, 254);
+            this.pDadosResponsaveis.Location = new System.Drawing.Point(20, 255);
             this.pDadosResponsaveis.Name = "pDadosResponsaveis";
             this.pDadosResponsaveis.Size = new System.Drawing.Size(964, 256);
             this.pDadosResponsaveis.TabIndex = 20;
@@ -796,36 +766,31 @@
             this.label22.TabIndex = 9;
             this.label22.Text = "RG:";
             // 
-            // frmCadastrarAluno
+            // frmCadastroAluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1271, 637);
+            this.ClientSize = new System.Drawing.Size(990, 637);
             this.Controls.Add(this.pDadosResponsaveis);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnDadosResponsaveis);
             this.Controls.Add(this.btnDadosPessoais);
             this.Controls.Add(this.pbFoto);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnFinalizar);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pDadosPessoais);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Name = "frmCadastrarAluno";
+            this.MaximizeBox = false;
+            this.Name = "frmCadastroAluno";
             this.Padding = new System.Windows.Forms.Padding(2);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmCadastrarAluno";
+            this.Text = "frmCadastroAlunoFuncionario";
             this.Load += new System.EventHandler(this.frmCadastrarAluno_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbFoto)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pDadosPessoais.ResumeLayout(false);
             this.pDadosPessoais.PerformLayout();
-            this.pMoverTel.ResumeLayout(false);
-            this.pMoverTel.PerformLayout();
-            this.panel2.ResumeLayout(false);
             this.pDadosResponsaveis.ResumeLayout(false);
             this.pDadosResponsaveis.PerformLayout();
             this.ResumeLayout(false);
@@ -836,7 +801,6 @@
         #endregion
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Label lblCategoria;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label lblDtaNascimento;
         private System.Windows.Forms.TextBox txtDataNascimento;
@@ -867,14 +831,10 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnFinalizar;
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel pDadosPessoais;
         private System.Windows.Forms.Button btnDadosPessoais;
         private System.Windows.Forms.Button btnDadosResponsaveis;
-        private System.Windows.Forms.Panel pMoverTel;
-        public System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel pDadosResponsaveis;
         private System.Windows.Forms.TextBox textBox24;
         private System.Windows.Forms.TextBox textBox38;
@@ -898,5 +858,7 @@
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label txtResponsavel;
         private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Button btnCadastrarCategoria;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

@@ -69,17 +69,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Escolha.cs" />
-    <Compile Include="frmCadastrarAluno.cs">
+    <Compile Include="frmCadastroAluno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCadastrarAluno.Designer.cs">
-      <DependentUpon>frmCadastrarAluno.cs</DependentUpon>
+    <Compile Include="frmCadastroAluno.Designer.cs">
+      <DependentUpon>frmCadastroAluno.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmConsultarAlunos.cs">
+    <Compile Include="frmCadastrarCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmConsultarAlunos.Designer.cs">
-      <DependentUpon>frmConsultarAlunos.cs</DependentUpon>
+    <Compile Include="frmCadastrarCategoria.Designer.cs">
+      <DependentUpon>frmCadastrarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroProfessor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroProfessor.Designer.cs">
+      <DependentUpon>frmCadastroProfessor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCategoriaConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCategoriaConsultar.Designer.cs">
+      <DependentUpon>frmCategoriaConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultarAlunoFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarAlunoFuncionario.Designer.cs">
+      <DependentUpon>frmConsultarAlunoFuncionario.cs</DependentUpon>
     </Compile>
     <Compile Include="frmInicializarPrograma.cs">
       <SubType>Form</SubType>
@@ -102,14 +120,28 @@
     <Compile Include="Iniciar.cs" />
     <Compile Include="MetodosComplementares.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Teste2DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Teste2DataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="TipoListagem.cs" />
     <Compile Include="TipoRelatorio.cs" />
     <Compile Include="FormularioMover.cs" />
-    <EmbeddedResource Include="frmCadastrarAluno.resx">
-      <DependentUpon>frmCadastrarAluno.cs</DependentUpon>
+    <EmbeddedResource Include="frmCadastroAluno.resx">
+      <DependentUpon>frmCadastroAluno.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmConsultarAlunos.resx">
-      <DependentUpon>frmConsultarAlunos.cs</DependentUpon>
+    <EmbeddedResource Include="frmCadastrarCategoria.resx">
+      <DependentUpon>frmCadastrarCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroProfessor.resx">
+      <DependentUpon>frmCadastroProfessor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCategoriaConsultar.resx">
+      <DependentUpon>frmCategoriaConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultarAlunoFuncionario.resx">
+      <DependentUpon>frmConsultarAlunoFuncionario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInicializarPrograma.resx">
       <DependentUpon>frmInicializarPrograma.cs</DependentUpon>
@@ -138,6 +170,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Teste2DataSet.xsc">
+      <DependentUpon>Teste2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Teste2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Teste2DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Teste2DataSet.xss">
+      <DependentUpon>Teste2DataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

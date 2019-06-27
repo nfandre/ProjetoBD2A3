@@ -1,73 +1,78 @@
-create database projetoBD
+create database Teste4
 
-use projetoBD
+use Teste4
 
 /* Lógico : */
 
 CREATE TABLE Aluno (
     idAluno INTEGER PRIMARY KEY IDENTITY,
-    nome CHARACTER,
-    cpf CHARACTER,
-    rg CHARACTER,
-    endereco CHARACTER,
-	numero CHARACTER,
-	apto CHARACTER,
-	cep CHARACTER,
-    email CHARACTER,
-    telefone CHARACTER,
-	celular CHARACTER,
-    dataNascimenoto DATE,
-   -- fk_Categoria_idCategoria INTEGER,
-  --  fk_Time_idTime INTEGER
+    nome varchar(30),
+    cpf varchar(30),
+    rg varchar(30),
+    endereco varchar(30),
+	numero varchar(30),
+	apto varchar(30),
+	cep varchar(30),
+    email varchar(30),
+    telefone varchar(30),
+	celular varchar(30),
+    dataNascimenoto DATETIME,
+    fk_Categoria_idCategoria INTEGER,
+    fk_Time_idTime INTEGER
 );
 
 CREATE TABLE Categoria (
-    idCategoria INTEGER PRIMARY KEY,
-    descricao CHARACTER
+    idCategoria INTEGER IDENTITY PRIMARY KEY,
+    descricao varchar(30)
 );
 
 CREATE TABLE Time (
     idTime INTEGER PRIMARY KEY,
-    nome CHARACTER,
-    fk_Professor_idProfessor INTEGER
+    nome varchar(30),
+    fk_Professor_idProfessor VARCHAR(30)
 );
 
 CREATE TABLE Competicao (
     idCompeticao INTEGER PRIMARY KEY,
-    descricao CHARACTER,
-    dataInicio DATE,
-    dataFinal DATE
+    descricao varchar(30),
+    dataInicio DATETIME,
+    dataFinal DATETIME
 );
 
 CREATE TABLE Estadio (
     idEstadio INTEGER PRIMARY KEY,
-    nome CHARACTER,
-    endereco CHARACTER,
-    telefone CHARACTER,
-    email CHARACTER
+    nome varchar(30),
+    endereco varchar(30),
+    telefone varchar(30),
+    email varchar(30)
 );
 
 CREATE TABLE Responsavel (
     cpf INTEGER PRIMARY KEY,
     rg INTEGER,
-    nome CHARACTER,
-    dataNascimento DATE,
-    endereco CHARACTER,
-    email CHARACTER,
-    telefone CHARACTER,
-	celular CHARACTER
+    nome varchar(30),
+    dataNascimento DATETIME,
+    endereco varchar(30),
+    email varchar(30),
+    telefone varchar(30),
+	celular varchar(30)
 );
 
 CREATE TABLE Professor (
-    idProfessor INTEGER PRIMARY KEY,
-    cpf CHARACTER,
-    rg CHARACTER,
-    nome CHARACTER,
-    endereco CHARACTER,
-    dataNascimento DATE,
-    telefone CHARACTER,
-	celular CHARACTER,
-    email CHARACTER
+	idProfessor Varchar(30) primary key,
+	foto  VARBINARY(MAX),
+    nome varchar(30),
+    cpf varchar(30),
+    rg varchar(30),
+	estadoCivil varchar(30),
+    endereco varchar(30),
+	numero varchar(30),
+	apto varchar(30),
+	cep varchar(30),
+    email varchar(30),
+    telefone varchar(30),
+	celular varchar(30),
+    dataNascimento DATETIME,
 );
 
 CREATE TABLE jogo (
@@ -126,19 +131,229 @@ ALTER TABLE esta ADD CONSTRAINT FK_esta_2
     REFERENCES Competicao (idCompeticao)
     ON DELETE SET NULL;
 
+create proc uspCategoriaInserir
+	@descricao varchar(30)
+
+AS 
+BEGIN
+	BEGIN TRY
+		BEGIN TRAN
+
+				insert into Categoria
+				values (@descricao)
+				declare @idCategoria as int = @@IDENTITY
+
+
+			SELECT @idCategoria AS Retorno
+		COMMIT TRAN
+	END TRY
+	BEGIN CATCH
+		ROLLBACK TRAN
+
+		SELECT ERROR_MESSAGE() AS RETORNO
+	END CATCH
+END
+
+CREATE PROC uspCategoriaAlterar
+	@idCategoria int,
+	@descricao varchar(30)
+
+AS
+BEGIN
+	BEGIN TRY
+		BEGIN TRAN 
+				update Categoria
+				set descricao = @descricao
+				where
+					idCategoria = @idCategoria
+				SELECT @idCategoria AS Retorno
+		COMMIT TRAN
+	END TRY
+
+	BEGIN CATCH
+	SELECT ERROR_MESSAGE() AS RETORNO
+	END CATCH
+END
+
+
+CREATE PROC uspCategoriaPesquisarTodos
+AS
+BEGIN
+	BEGIN TRY
+		BEGIN TRAN 
+				Select * from Categoria
+		COMMIT TRAN
+	END TRY
+
+	BEGIN CATCH
+	SELECT ERROR_MESSAGE() AS RETORNO
+	END CATCH
+END
+
+CREATE PROC uspCategoriaExcluir
+
+@idCategoria INT
+AS
+BEGIN
+	BEGIN TRY
+		BEGIN TRAN
+			DELETE FROM Categoria WHERE idCategoria = @idCategoria
+
+			select @idCategoria as retorno
+		COMMIT TRAN
+	END TRY
+	BEGIN CATCH
+		ROLLBACK TRAN
+	SELECT ERROR_MESSAGE() AS Retorno
+
+	END CATCH
+END
+
+
+
+CREATE PROC uspFuncionarioInserir
+
+	@idProfessor Varchar(30),
+	@foto  VARBINARY(MAX),
+    @nome varchar(30),
+    @cpf varchar(30),
+    @rg varchar(30),
+	@estadoCivil varchar(30),
+    @endereco varchar(30),
+	@numero varchar(30),
+	@apto varchar(30),
+	@cep varchar(30),
+    @email varchar(30),
+    @telefone varchar(30),
+	@celular varchar(30),
+    @dataNascimento DATETIME
+AS
+BEGIN
+	BEGIN TRY
+		BEGIN TRAN
+			insert into Professor
+			values
+			(	@idProfessor ,
+	@foto ,
+    @nome ,
+    @cpf ,
+    @rg ,
+	@estadoCivil ,
+    @endereco ,
+	@numero ,
+	@apto ,
+	@cep ,
+    @email ,
+    @telefone ,
+	@celular ,
+    @dataNascimento)
+	SELECT @idProfessor AS Retorno
+		COMMIT TRAN
+	END TRY
+	BEGIN CATCH
+		ROLLBACK TRAN
+	SELECT ERROR_MESSAGE() AS Retorno
+
+	END CATCH
+END
+
+CREATE PROC uspProfessorAlterar
+	@idProfessor Varchar(30),
+	@foto  VARBINARY(MAX),
+    @nome varchar(30),
+    @cpf varchar(30),
+    @rg varchar(30),
+	@estadoCivil varchar(30),
+    @endereco varchar(30),
+	@numero varchar(30),
+	@apto varchar(30),
+	@cep varchar(30),
+    @email varchar(30),
+    @telefone varchar(30),
+	@celular varchar(30),
+    @dataNascimento DATETIME
+
+AS
+BEGIN
+	BEGIN TRY
+		BEGIN TRAN 
+				update Professor
+				set
+				foto = @foto,
+				cpf = @cpf,
+				rg = @rg,
+				nome = @nome,
+				estadoCivil = @estadoCivil,
+				endereco = @endereco,
+				numero = @numero,
+				apto = @apto,
+				cep = @cep,
+				email = @email,
+				telefone = @telefone,
+				celular = @celular,
+				dataNascimento = @dataNascimento
+
+				where idProfessor = @idProfessor
+
+				select @idProfessor as retorno;
+
+				
+		COMMIT TRAN
+	END TRY
+
+	BEGIN CATCH
+	SELECT ERROR_MESSAGE() AS RETORNO
+	END CATCH
+END
+
+CREATE PROC uspProfessorPesquisarTodos
+AS
+BEGIN
+	BEGIN TRY
+		BEGIN TRAN 
+				Select * from Professor
+		COMMIT TRAN
+	END TRY
+
+	BEGIN CATCH
+	SELECT ERROR_MESSAGE() AS RETORNO
+	END CATCH
+END
+
+CREATE PROC uspProfessorExcluir
+
+@idProfessor Varchar(30)
+AS
+BEGIN
+	BEGIN TRY
+		BEGIN TRAN
+			DELETE FROM Professor WHERE idProfessor = @idProfessor
+
+			select @idProfessor as retorno
+		COMMIT TRAN
+	END TRY
+	BEGIN CATCH
+		ROLLBACK TRAN
+	SELECT ERROR_MESSAGE() AS Retorno
+
+	END CATCH
+END
+
+
+select * from Professor
 
 create proc uspInserirAluno
-    @nome CHARACTER,
-    @cpf CHARACTER,
-    @rg CHARACTER,
-    @endereco CHARACTER,
-	@numero CHARACTER,
-	@apto CHARACTER,
-	@cep CHARACTER,
-    @email CHARACTER,
-    @telefone CHARACTER,
-	@celular CHARACTER,
-    @dataNascimenoto DATE
+    @nome varchar(30),
+    @cpf varchar(30),
+    @rg varchar(30),
+    @endereco varchar(30),
+	@numero varchar(30),
+	@apto varchar(30),
+	@cep varchar(30),
+    @email varchar(30),
+    @telefone varchar(30),
+	@celular varchar(30),
+    @dataNascimenoto DATETIME
    -- fk_Categoria_idCategoria INTEGER,
   --  fk_Time_idTime INTEGER
 as
@@ -147,4 +362,4 @@ begin
 	values(@nome,@cpf,@rg,@endereco,@numero,@apto,@cep,@email,@telefone,@celular,@dataNascimenoto)	
 end
 
-exec uspInserirAluno
+select * from Categoria

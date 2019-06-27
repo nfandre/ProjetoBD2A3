@@ -145,13 +145,11 @@ C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\bin\Debug\O
 C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\bin\Debug\CamadaDados.pdb
 C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\bin\Debug\MySql.Data.xml
 C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
-C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmCadastrarAluno.resources
 C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmInicializarPrograma.resources
 C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmLoginAcesso.resources
 C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmPaginaInicial.resources
 C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
 C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
-C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmCadastrarResponsaveis.resources
 C:\Users\afreitas\Desktop\app\CamadaApresentacao\Apresentacao\bin\Debug\Apresentacao.exe.config
 C:\Users\afreitas\Desktop\app\CamadaApresentacao\Apresentacao\bin\Debug\Apresentacao.exe
 C:\Users\afreitas\Desktop\app\CamadaApresentacao\Apresentacao\bin\Debug\Apresentacao.pdb
@@ -210,3 +208,8 @@ C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug
 C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.exe
 C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.pdb
 C:\Users\afreitas\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmConsultarAlunos.resources
+C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmCadastrarCategoria.resources
+C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmCategoriaConsultar.resources
+C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmCadastroAluno.resources
+C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmCadastroProfessor.resources
+C:\Users\André\Desktop\ProjetoBD2A3\CamadaApresentacao\Apresentacao\obj\Debug\Apresentacao.frmConsultarAlunoFuncionario.resources

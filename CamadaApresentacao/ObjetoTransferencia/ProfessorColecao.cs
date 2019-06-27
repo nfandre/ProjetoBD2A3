@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace ObjetoTransferencia
 {
-    public class Vendas
+    public class ProfessorColecao : List<Professor>
     {
-        public int idVenda { get; set; }
-        public Produto Produto { get; set; }
-        public decimal valorTotal { get; set; }
     }
 }
